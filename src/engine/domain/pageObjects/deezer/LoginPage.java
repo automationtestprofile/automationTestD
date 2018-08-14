@@ -8,7 +8,8 @@ import engine.enums.SearchBy;
 public class LoginPage extends LoginHeader {
     public static Driver driver = new Driver();
 
-    public static String userEmail = "dasha@gmail.com";
+    public static String userEmail = "mrs.tester.tested@gmail.com";
+    public static String userPassword = "P@ssw0rd";
 
     private final Locatable facebookButton =
             new Locatable(SearchBy.XPATH, "//span[text()='Facebook']",
@@ -50,11 +51,20 @@ public class LoginPage extends LoginHeader {
                     "Container with inforation about sucssedful reset password");
     public final Locatable resetEmailField =
             new Locatable(SearchBy.ID, "reset_mail", "Field for email");
+    public final Locatable emailSingInField =
+            new Locatable(SearchBy.ID, "login_mail", "Email field on Sing in Page");
+    public final Locatable passwordSingInField =
+            new Locatable(SearchBy.ID, "login_password", "Password field on Sing in Page");
     public final Locatable resetSubmitButton =
             new Locatable(SearchBy.ID, "reset_password_submit", "Submit reset button");
+
+    public final Locatable logInSubmitButton =
+            new Locatable(SearchBy.ID, "login_form_submit", "Login button");
+
     public boolean isLoginFormContainerIsPresent() {
         return driver.isElementDisplayed(loginFormContainer);
     }
+
     public final Locatable successMailMessageRecieved =
             new Locatable(SearchBy.XPATH, "//div[contains(text(),'got mail')]",
                     "Message about successfull reseting email");
@@ -62,10 +72,12 @@ public class LoginPage extends LoginHeader {
     public boolean isPopUpFacebookIsPresentForSingIn() {
         return driver.isElementDisplayed(facebookPopUp);
     }
-    public LoginPage navigateToResetButton(){
+
+    public LoginPage navigateToResetButton() {
         driver.click(resetSubmitButton, null, true);
         return new LoginPage();
     }
+
     public LoginPage navigateToFacebookButton() {
         driver.click(facebookButton, null, true);
         return new LoginPage();
@@ -75,24 +87,51 @@ public class LoginPage extends LoginHeader {
         driver.click(forgetPasswordLink, null, true);
         return new LoginPage();
     }
-    public LoginPage navigateToSubmitResetMail(){
+
+    public LoginPage navigateToSubmitResetMail() {
         driver.click(resetSubmitButton, null, true);
         return new LoginPage();
     }
-    public boolean isResetContainerIsVisible() {
-        return driver.isElementDisplayed(resetPasswordContainer);
+
+    public LoginPage navigateToSubmtLogInButton() {
+        driver.click(logInSubmitButton, null, true);
+        return new LoginPage();
     }
-    public LoginPage setTextToResetEmailFiled(){
+
+    public boolean isResetContainerIsVisible() {
+                return driver.isElementDisplayed(resetPasswordContainer);
+    }
+
+    public LoginPage setTextToEmailFiledSingInPAge() {
+        driver.setText(emailSingInField, userEmail, true);
+        return new LoginPage();
+    }
+
+    public LoginPage setTextToPasswordSingInFiled() {
+        driver.setText(passwordSingInField, userPassword, true);
+        return new LoginPage();
+    }
+
+    public LoginPage setTextToResetEmailFiled() {
         driver.setText(resetEmailField, userEmail, true);
         return new LoginPage();
     }
+
+
     public boolean isResetSuccessfullContainerIsPresent() {
         return driver.isElementDisplayed(resetPasswordSuccseesContainer);
     }
-    public String getTextAboutConfirm(){
+
+    public String getTextAboutConfirm() {
         return driver.getText(confirmMailTo);
     }
-    public String gerTextFromMessageReceived(){
+
+    public String gerTextFromMessageReceived() {
         return driver.getText(successMailMessageRecieved);
+    }
+
+    public MainPage navigateToSubmitSingInButton() {
+        driver.click(logInSubmitButton, null, true);
+        return new MainPage();
     }
 }

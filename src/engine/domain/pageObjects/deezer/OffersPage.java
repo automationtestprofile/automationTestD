@@ -8,7 +8,8 @@ import engine.enums.SearchBy;
 public class OffersPage extends LoginHeader {
     public static Driver driver = new Driver();
     private final Locatable offersContainer =
-            new Locatable(SearchBy.CLASSNAME,"unlogged-plans-list-container", "Form with iformation about offers and prices");
+            new Locatable(SearchBy.CLASSNAME,"unlogged-plans-list-container",
+                    "Form with iformation about offers and prices");
     public boolean isOfferContainerVisible (){
         return driver.isElementDisplayed(offersContainer);
     }

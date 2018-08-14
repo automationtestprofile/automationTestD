@@ -66,6 +66,17 @@ public class LoginTests extends UiTestRunner {
                 .gerTextFromMessageReceived();
         Assert.assertEquals(isMessageResetIsSuccess, "You've got mail!");
     }
+    @Test
+    public final void isLoginIsSuccess(){
+        boolean isLoginIsSuccess = Navigate
+                .navigateToDeezerApp()
+                .navigateToSignIn()
+                .setTextToEmailFiledSingInPAge()
+                .setTextToPasswordSingInFiled()
+                .navigateToSubmitSingInButton()
+                .isPlayerPresentOnMainPage();
+        Assert.assertTrue(isLoginIsSuccess);
+    }
 //    @Test
 //    public final void isFacebookPopUpIsPresent(){
 //        boolean isLoginFacebookPopUpIsPresent = Navigate
