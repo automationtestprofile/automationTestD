@@ -73,22 +73,24 @@ public class LoginPage extends LoginHeader {
             new Locatable(SearchBy.XPATH, "//div[contains(text(),'Your details are incorrect. Please try again.')]",
                     "Message about no valid data enter to Login form");
 
+    //resetPassword(string email)
     public LoginPage navigateToResetButton() {
         driver.click(resetSubmitButton, null, true);
-        return new LoginPage();
+        return this;
     }
 
+    //clickForgerPassword
     public LoginPage navigateToForgetPasswordLink() {
         driver.click(forgetPasswordLink, null, true);
-        return new LoginPage();
+        return this;
     }
 
     public LoginPage navigateToSubmitResetMail() {
         driver.click(resetSubmitButton, null, true);
-        return new LoginPage();
+        return this;
     }
 
-    public MainPage clickSingInButton() {
+    private MainPage clickSingInButton() {
         driver.click(logInSubmitButton, null, true);
         return new MainPage();
     }
@@ -105,19 +107,19 @@ public class LoginPage extends LoginHeader {
         return driver.isElementDisplayed(resetPasswordContainer);
     }
 
-    public LoginPage setEmail(String userEmail) {
+    private LoginPage setEmail(String userEmail) {
         driver.setText(emailSingInField, userEmail, true);
-        return new LoginPage();
+        return this;
     }
 
-    public LoginPage setPassword(String userPassword) {
+    private LoginPage setPassword(String userPassword) {
         driver.setText(passwordSingInField, userPassword, true);
-        return new LoginPage();
+        return this;
     }
 
     public LoginPage emailReset(String userEmail) {
         driver.setText(resetEmailField, userEmail, true);
-        return new LoginPage();
+        return this;
     }
 
     public boolean isResetSuccessfullContainerIsPresent() {
@@ -137,16 +139,23 @@ public class LoginPage extends LoginHeader {
     }
 
     public MainPage login (String userEmail, String userPassword){
-        setEmail(userEmail);
-        setPassword(userPassword);
-        clickSingInButton();
-        return new MainPage();
+//        setEmail(userEmail);
+//        setPassword(userPassword);
+//        clickSingInButton();
+//        return new MainPage();
+
+        //!
+       return setEmail(userEmail)
+                .setPassword(userPassword)
+                .clickSingInButton();
     }
 
+    //?
     public LoginPage setWrongPassword (String userEmail, String userWrongPassword){
         setEmail(userEmail);
         setPassword(userWrongPassword);
         clickSingInButton();
-        return new LoginPage();
+
+        return this;
     }
 }
