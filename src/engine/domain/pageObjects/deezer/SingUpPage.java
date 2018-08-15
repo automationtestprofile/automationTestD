@@ -7,9 +7,11 @@ import engine.enums.SearchBy;
 
 public class SingUpPage extends LoginHeader {
     public static Driver driver = new Driver();
-    private final Locatable singUpFormContainer=
-            new Locatable(SearchBy.CLASSNAME,"unlogged-form-container", "Form for sing up");
-    public boolean isSingUpContainerPresent(){
+    private final Locatable singUpFormContainer =
+            new Locatable(SearchBy.CLASSNAME, "unlogged-form-container",
+                    "Sing up container");
+
+    public boolean isSingUpContainerPresent() {
         return driver.isElementDisplayed(singUpFormContainer);
     }
 

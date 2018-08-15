@@ -11,31 +11,30 @@ public class LoginHeader {
     public static Driver driver = new Driver();
 
     private final Locatable returnToMainPageButton =
-            new Locatable(SearchBy.ID, "topbar-deezer-logo", "Button for returning to the main page" );
+            new Locatable(SearchBy.ID, "topbar-deezer-logo", "Button for returning to the main page");
 
     private final Locatable goToRatesButton =
-            new Locatable(SearchBy.ID, "topbar-link-offers", "Button for navigating on rates page" );
+            new Locatable(SearchBy.ID, "topbar-link-offers", "Button for navigating on rates page");
 
     private final Locatable loginButton =
-            new Locatable(SearchBy.ID, "topbar-login-button", "Button for navigate to login page" );
+            new Locatable(SearchBy.ID, "topbar-login-button", "Button for navigate to login page");
 
     private final Locatable registrationButton =
             new Locatable(SearchBy.ID, "topbar-register-button",
-                    "Button for navigate to registration page" );
+                    "Button for navigate to registration page");
 
-    public LoginPage navigateToSignIn(){
+    public LoginPage navigateToSignIn() {
         driver.click(loginButton, null, true);
         return new LoginPage();
     }
-    public SingUpPage navigateToSignUp(){
+
+    public SingUpPage navigateToSignUp() {
         driver.click(registrationButton, null, true);
         return new SingUpPage();
     }
-    public OffersPage navigateToOfferPage(){
+
+    public OffersPage navigateToOfferPage() {
         driver.click(goToRatesButton, null, true);
         return new OffersPage();
     }
-
-
-
 }
