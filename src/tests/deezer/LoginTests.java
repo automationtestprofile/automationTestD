@@ -46,7 +46,7 @@ public class LoginTests extends UiTestRunner {
         boolean isPasswordResetPresent = Navigate
                 .navigateToDeezerApp()
                 .navigateToSignIn()
-                .navigateToForgetPasswordLink()
+                .clickForgetPassword()
                 .isResetContainerIsVisible();
         Assert.assertTrue(isPasswordResetPresent, "Reset form should be visible on page");
     }
@@ -56,9 +56,8 @@ public class LoginTests extends UiTestRunner {
         String isPasswordResetIsSuccess = Navigate
                 .navigateToDeezerApp()
                 .navigateToSignIn()
-                .navigateToForgetPasswordLink()
+                .clickForgetPassword()
                 .emailReset(userEmail)
-                .navigateToSubmitResetMail()
                 .resetConfirmation();
         Assert.assertEquals(isPasswordResetIsSuccess, userEmail,
                 "Password reset should be successful");
@@ -69,9 +68,9 @@ public class LoginTests extends UiTestRunner {
         String isMessageResetIsSuccess = Navigate
                 .navigateToDeezerApp()
                 .navigateToSignIn()
-                .navigateToForgetPasswordLink()
+                .clickForgetPassword()
                 .emailReset(userEmail)
-                .navigateToSubmitResetMail()
+                .clickResetButton()
                 .messageRecieved();
         Assert.assertEquals(isMessageResetIsSuccess, "You've got mail!");
     }
