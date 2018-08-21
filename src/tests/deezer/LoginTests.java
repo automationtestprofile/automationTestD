@@ -62,7 +62,7 @@ public class LoginTests extends UiTestRunner {
         Assert.assertEquals(isPasswordResetIsSuccess, userEmail,
                 "Password reset should be successful");
     }
-
+//coment
     @Test
     public final void isMessageResetIsSuccess() {
         String isMessageResetIsSuccess = Navigate
