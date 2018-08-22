@@ -5,6 +5,8 @@ import engine.Locatable;
 import engine.domain.pageObjects.deezer.Controllers.LoginHeader;
 import engine.enums.SearchBy;
 
+import static engine.Driver.scrollToElement;
+
 public class LoginPage extends LoginHeader {
 
     public static Driver driver = new Driver();
@@ -56,6 +58,8 @@ public class LoginPage extends LoginHeader {
     public final Locatable wrongLoginDataMessage =
             new Locatable(SearchBy.XPATH, "//div[contains(text(),'Your details are incorrect. Please try again.')]",
                     "Message about no valid data enter to Login form");
+
+
 
     //resetPassword(string email)
     public LoginPage clickResetButton() {
@@ -132,4 +136,6 @@ public class LoginPage extends LoginHeader {
 
         return this;
     }
+
+
 }

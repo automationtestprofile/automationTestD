@@ -95,4 +95,15 @@ public class LoginTests extends UiTestRunner {
                 .isMessageAboutNotCorrectDataIsPresent();
         Assert.assertTrue(isLoginIsSuccess, "User should`nt login");
     }
+
+    @Test
+    public final void changeLanguage (){
+        boolean isScroll;
+        isScroll = Navigate
+                .navigateToDeezerApp()
+                .scroll()
+                .isScrolledElementVisible();
+        Assert.assertTrue(isScroll , "Scroll should works");
+}
+
 }

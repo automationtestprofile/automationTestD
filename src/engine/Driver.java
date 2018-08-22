@@ -1,5 +1,7 @@
 package engine;
 
+import engine.domain.pageObjects.deezer.WelcomePage;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -13,6 +15,8 @@ public final class Driver {
     public static WebDriver getInstance() {
         return instance;
     }
+
+    static JavascriptExecutor js = (JavascriptExecutor)instance;
 
     public static void start() {
         try {
@@ -109,6 +113,12 @@ public final class Driver {
             e.printStackTrace();
         }
         return stringList;
+    }
+
+    public static void scrollToElement (Locatable  locator){
+
+        ((JavascriptExecutor)instance).executeScript("arguments[0].scrollIntoView(true);", locator);
+
     }
 }
 
