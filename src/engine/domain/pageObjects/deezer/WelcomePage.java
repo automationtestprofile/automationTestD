@@ -21,9 +21,10 @@ public class WelcomePage extends LoginHeader {
             new Locatable(SearchBy.CLASSNAME, "hero-block-heading-1",
                     "Welcome text on Main Page");
     public final Locatable languageSelector =
-            new Locatable(SearchBy.ID, "language_select", "Dropdown with languages");
+            new Locatable(SearchBy.CLASSNAME, "btn btn-primary btn-block", "Dropdown with languages");
 
-    public WelcomePage  scroll(){
+
+    public WelcomePage scroll(){
 
     scrollToElement(languageSelector);
         return this;

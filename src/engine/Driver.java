@@ -116,8 +116,13 @@ public final class Driver {
     }
 
     public static void scrollToElement (Locatable  locator){
-
-        ((JavascriptExecutor)instance).executeScript("arguments[0].scrollIntoView(true);", locator);
+        try{
+            ((JavascriptExecutor)instance).executeScript("arguments[0].scrollIntoView(true);",
+                    Wait.getVisbleElement(instance, locator));
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
 
     }
 }
