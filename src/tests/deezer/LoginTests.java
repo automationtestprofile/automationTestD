@@ -58,6 +58,7 @@ public class LoginTests extends UiTestRunner {
                 .navigateToSignIn()
                 .clickForgetPassword()
                 .emailReset(userEmail)
+                .clickResetButton()
                 .resetConfirmation();
         Assert.assertEquals(isPasswordResetIsSuccess, userEmail,
                 "Password reset should be successful");

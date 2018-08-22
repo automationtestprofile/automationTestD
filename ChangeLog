@@ -1,0 +1,35 @@
+commit 744c35443fb0793dd5461a399d7d1eecce446fab
+Author: Daria.Zhavoronok <Daria.Zhavoronok@logivations.com>
+Date:   Tue Aug 21 19:16:32 2018 +0300
+
+    test
+
+commit 18a427c414aa5592fa16cea5f4c03251e9c9ac9a
+Author: Daria.Zhavoronok <Daria.Zhavoronok@logivations.com>
+Date:   Mon Aug 20 21:03:19 2018 +0300
+
+    Refactored LoginPage
+
+commit 4bb486d9326c81b88122ded3fd0106615311f752
+Author: unknown <ext-artem.redchyts@here.com>
+Date:   Wed Aug 15 22:28:34 2018 +0300
+
+    Refactored LoginPage
+
+commit bf23e264aae71c1dcee17570afb56c138a85fde7
+Author: Daria.Zhavoronok <Daria.Zhavoronok@logivations.com>
+Date:   Wed Aug 15 20:22:24 2018 +0300
+
+    not valid login + refactoring
+
+commit a27f094a394c92e696cec58c24aecc4c72a4cecd
+Author: Daria.Zhavoronok <Daria.Zhavoronok@logivations.com>
+Date:   Tue Aug 14 17:47:55 2018 +0300
+
+    Login test
+
+commit 4efe06aed0dafb3e48ed22e0dd1a944eff08296d
+Author: Daria.Zhavoronok <Daria.Zhavoronok@logivations.com>
+Date:   Mon Aug 13 17:47:22 2018 +0300
+
+    first test
