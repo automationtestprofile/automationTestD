@@ -55,7 +55,7 @@ public final class Driver {
                 }
             }
 
-            Wait.getClicableElement(instance, locator)
+            Wait.getClickableElement(instance, locator)
                     .click();
         } catch (Exception e) {
             e.printStackTrace();
@@ -64,7 +64,7 @@ public final class Driver {
 
     public static void setText(Locatable locator, String text, boolean clearBefore) {
         try {
-            WebElement element = Wait.getVisbleElement(instance, locator);
+            WebElement element = Wait.getVisibleElement(instance, locator);
 
             if (clearBefore) {
                 element.clear();
@@ -80,7 +80,7 @@ public final class Driver {
     public static String getText(Locatable locator) {
         String elementsText = null;
         try {
-            elementsText = Wait.getClicableElement(instance, locator).getText();
+            elementsText = Wait.getClickableElement(instance, locator).getText();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -105,7 +105,7 @@ public final class Driver {
     public static List<String> getStringList(Locatable locator) {
         List<String> stringList = null;
         try {
-            stringList = Wait.gerVisibleElements(instance, locator)
+            stringList = Wait.getVisibleElements(instance, locator)
                     .stream()
                     .map(x -> x.getText().trim())
                     .collect(Collectors.toList());
@@ -118,7 +118,7 @@ public final class Driver {
     public static void scrollToElement (Locatable  locator){
         try{
             ((JavascriptExecutor)instance).executeScript("arguments[0].scrollIntoView(true);",
-                    Wait.getVisbleElement(instance, locator));
+                    Wait.getVisibleElement(instance, locator));
         }
         catch (Exception e){
             e.printStackTrace();

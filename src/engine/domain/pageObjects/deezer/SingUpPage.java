@@ -11,7 +11,7 @@ public class SingUpPage extends LoginHeader {
             new Locatable(SearchBy.CLASSNAME, "unlogged-form-container",
                     "Sing up container");
 
-    public boolean isSingUpContainerPresent() {
+    public boolean isSingUpFormIsPresent() {
         return driver.isElementDisplayed(singUpFormContainer);
     }
 

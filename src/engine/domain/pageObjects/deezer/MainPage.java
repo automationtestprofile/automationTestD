@@ -10,7 +10,7 @@ public class MainPage {
     private final Locatable playerForm =
             new Locatable(SearchBy.ID, "player", "Player on main page");
 
-    public boolean isPlayerPresentOnMainPage() {
+    public boolean isPlayerPresent() {
         return driver.isElementDisplayed(playerForm);
     }
 

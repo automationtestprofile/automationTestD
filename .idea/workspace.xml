@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caa79006-ca6d-49d4-8fca-d7a83e5401c3" name="Default Changelist" comment="">
+    <list default="true" id="24587f18-b802-48fc-bb18-bdc353fe89bd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/engine/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/Wait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Controllers/LoginHeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Controllers/LoginHeader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Footer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Footer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/OffersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/OffersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/SingUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/SingUpPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/WelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/WelcomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/deezer/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/deezer/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/engine/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/engine/DriverFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/DriverFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/engine/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/DriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/engine/Locatable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/Locatable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/engine/Locatable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/Locatable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/engine/Wait.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/engine/Wait.class" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,55 +33,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/daria_project$LoginTests_loginFormIsPresent_and_7_more.ic" NAME="LoginTests,loginFormIsPresent and 7 more Coverage Results" MODIFIED="1534361069675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-100820794">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="313" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="313" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java">
+    <leaf>
+      <file leaf-file-name="LoginTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="138" selection-start-line="138" selection-end-line="138" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WelcomePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/WelcomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,11 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WelcomePage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/WelcomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/engine/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="120" column="59" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="59" />
+            <state relative-caret-position="1904">
+              <caret line="120" column="60" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -82,32 +68,42 @@
       <file leaf-file-name="Wait.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/engine/Wait.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="32" column="47" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-end-line="104" />
+            <state relative-caret-position="238">
+              <caret line="23" column="46" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>//div[contains(text(),'got mail')]</find>
-      <find>clickFo</find>
-      <find>getText</find>
-      <find>clickForgerPassword</find>
-      <find>clickForgetPassword</find>
-      <find>getVisbleElement</find>
+      <find>userWrongPassword</find>
+      <find>navigateToSignIn</find>
+      <find>IsLog</find>
+      <find>submitloginButton</find>
+      <find>submitLogin</find>
+      <find>setWrongPassword</find>
+      <find>faceboo</find>
+      <find>isLoginIsSuccess</find>
+      <find>resetMessageSuccess</find>
+      <find>isLoginFormContainerIsPresent</find>
     </findStrings>
+    <replaceStrings>
+      <replace>userInvalidPassword</replace>
+      <replace>navigateToLoginPage</replace>
+      <replace>submitLoginButton</replace>
+      <replace>isSingUpFormIsPresent</replace>
+      <replace>confirmationResetMessage</replace>
+      <replace>isLoginFormIsPresent</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,146 +111,79 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/SingUpPage.java" />
+        <option value="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/OffersPage.java" />
         <option value="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Controllers/LoginHeader.java" />
+        <option value="$PROJECT_DIR$/src/tests/deezer/OffersTests.java" />
+        <option value="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/MainPage.java" />
         <option value="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Footer.java" />
+        <option value="$PROJECT_DIR$/src/engine/Wait.java" />
         <option value="$PROJECT_DIR$/src/tests/deezer/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/WelcomePage.java" />
         <option value="$PROJECT_DIR$/src/engine/Driver.java" />
+        <option value="$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/WelcomePage.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-240" />
-    <option name="y" value="-30" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="640" />
+    <option name="height" value="690" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="daria_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="daria_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="daria_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="daria_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="daria_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="daria_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="engine" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="daria_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="daria_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="engine" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="domain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="daria_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="daria_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="engine" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="domain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pageObjects" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="daria_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="daria_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="engine" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="domain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pageObjects" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="deezer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="daria_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="daria_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="engine" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="domain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pageObjects" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="deezer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="Controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="daria_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="daria_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="daria_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="daria_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="tests" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="deezer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="daria_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daria_project" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestD" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="daria_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daria_project" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="daria_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daria_project" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="daria_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daria_project" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="daria_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daria_project" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="engine" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="deezer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="daria_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daria_project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="daria_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daria_project" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="daria_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="daria_project" type="462c0819:PsiDirectoryNode" />
+              <item name="automationTestD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automationTestD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="deezer" type="462c0819:PsiDirectoryNode" />
@@ -263,11 +192,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534361196436" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -282,50 +207,27 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.LoginTests.changeLanguage">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <method>
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.changeLanguage (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="daria_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.deezer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests.deezer" />
-      <option name="MAIN_CLASS_NAME" value="tests.deezer.LoginTests" />
-      <option name="METHOD_NAME" value="changeLanguage" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
+      <patterns />
     </configuration>
-    <configuration name="LoginTests.changeLanguage (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="daria_project" />
+    <configuration name="LoginTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationTestD" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.deezer.*" />
@@ -337,41 +239,12 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests.deezer" />
       <option name="MAIN_CLASS_NAME" value="tests.deezer.LoginTests" />
-      <option name="METHOD_NAME" value="changeLanguage" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="LoginTests.changeLanguage (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="daria_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.deezer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests.deezer" />
-      <option name="MAIN_CLASS_NAME" value="tests.deezer.LoginTests" />
-      <option name="METHOD_NAME" value="changeLanguage" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -383,7 +256,7 @@
       <listeners />
     </configuration>
     <configuration name="LoginTests.changeLanguage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="daria_project" />
+      <module name="automationTestD" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.deezer.*" />
@@ -398,9 +271,9 @@
       <option name="METHOD_NAME" value="changeLanguage" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -411,8 +284,8 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="LoginTests.isPasswordResetIsSuccess (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="daria_project" />
+    <configuration name="LoginTests.isLoginIsFailed" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationTestD" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.deezer.*" />
@@ -424,12 +297,63 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests.deezer" />
       <option name="MAIN_CLASS_NAME" value="tests.deezer.LoginTests" />
-      <option name="METHOD_NAME" value="isPasswordResetIsSuccess" />
+      <option name="METHOD_NAME" value="isLoginIsFailed" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="LoginTests.loginFormIsPresent" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationTestD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.deezer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests.deezer" />
+      <option name="MAIN_CLASS_NAME" value="tests.deezer.LoginTests" />
+      <option name="METHOD_NAME" value="loginFormIsPresent" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -441,19 +365,17 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.LoginTests.isPasswordResetIsSuccess (1)" />
+      <item itemvalue="TestNG.LoginTests.loginFormIsPresent" />
+      <item itemvalue="TestNG.LoginTests.isLoginIsFailed" />
       <item itemvalue="TestNG.LoginTests.changeLanguage" />
-      <item itemvalue="TestNG.LoginTests.changeLanguage (1)" />
-      <item itemvalue="TestNG.LoginTests.changeLanguage (2)" />
-      <item itemvalue="TestNG.LoginTests.changeLanguage (3)" />
+      <item itemvalue="TestNG.LoginTests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.LoginTests.changeLanguage" />
-        <item itemvalue="TestNG.LoginTests.changeLanguage (3)" />
-        <item itemvalue="TestNG.LoginTests.changeLanguage (2)" />
-        <item itemvalue="TestNG.LoginTests.changeLanguage (1)" />
-        <item itemvalue="TestNG.LoginTests.isPasswordResetIsSuccess (1)" />
+        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.LoginTests.isLoginIsFailed" />
+        <item itemvalue="TestNG.LoginTests.loginFormIsPresent" />
       </list>
     </recent_temporary>
   </component>
@@ -462,458 +384,200 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="caa79006-ca6d-49d4-8fca-d7a83e5401c3" name="Default Changelist" comment="" />
-      <created>1534359861760</created>
+      <changelist id="24587f18-b802-48fc-bb18-bdc353fe89bd" name="Default" comment="" />
+      <created>1535301692971</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1534359861760</updated>
+      <updated>1535301692971</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTests_changeLanguage - 2018.08.22 at 14h 09m 21s.xml">
+    <history-entry file="LoginTests_changeLanguage - 2018.08.26 at 20h 50m 00s.xml">
       <configuration name="LoginTests.changeLanguage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_changeLanguage - 2018.08.22 at 14h 09m 45s.xml">
+    <history-entry file="LoginTests_changeLanguage - 2018.08.26 at 20h 51m 05s.xml">
       <configuration name="LoginTests.changeLanguage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_changeLanguage - 2018.08.22 at 14h 14m 12s.xml">
+    <history-entry file="LoginTests_changeLanguage - 2018.08.26 at 20h 53m 01s.xml">
       <configuration name="LoginTests.changeLanguage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_changeLanguage_(2) - 2018.08.22 at 14h 17m 58s.xml">
-      <configuration name="LoginTests.changeLanguage (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests_changeLanguage - 2018.08.22 at 15h 20m 51s.xml">
+    <history-entry file="LoginTests_changeLanguage - 2018.08.26 at 20h 55m 50s.xml">
       <configuration name="LoginTests.changeLanguage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_changeLanguage - 2018.08.22 at 15h 29m 24s.xml">
+    <history-entry file="LoginTests_changeLanguage - 2018.08.26 at 20h 57m 23s.xml">
       <configuration name="LoginTests.changeLanguage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_changeLanguage - 2018.08.22 at 16h 32m 43s.xml">
+    <history-entry file="LoginTests_changeLanguage - 2018.08.26 at 21h 00m 01s.xml">
       <configuration name="LoginTests.changeLanguage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_changeLanguage_(3) - 2018.08.22 at 16h 35m 54s.xml">
-      <configuration name="LoginTests.changeLanguage (3)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests_changeLanguage - 2018.08.22 at 16h 38m 15s.xml">
+    <history-entry file="LoginTests_changeLanguage - 2018.08.26 at 21h 04m 20s.xml">
       <configuration name="LoginTests.changeLanguage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTests_changeLanguage - 2018.08.22 at 16h 39m 42s.xml">
+    <history-entry file="LoginTests - 2018.08.26 at 21h 07m 23s.xml">
+      <configuration name="LoginTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_changeLanguage - 2018.08.26 at 21h 08m 22s.xml">
+      <configuration name="LoginTests.changeLanguage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTests_changeLanguage - 2018.08.26 at 21h 11m 10s.xml">
       <configuration name="LoginTests.changeLanguage" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="bottom" id="TODO" order="4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32827586" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32689655" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22460938" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" visible="true" weight="0.18590604" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3290938" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24963397" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3990461" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/engine/Driver.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/UiTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/deezer/OffersTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/UiTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/Navigate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Footer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/UiTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Controllers/LoginHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/Navigate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Controllers/LoginHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Footer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2465">
-          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/UiTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Footer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Controllers/LoginHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/Navigate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/UiTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="76" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="82" column="33" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Footer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-958">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/UiTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/Navigate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Controllers/LoginHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2087">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/Navigate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Footer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-958">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Controllers/LoginHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/UiTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="103" column="30" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Footer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-958">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Controllers/LoginHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/UiTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/enums/SearchBy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/Navigate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/Locatable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/DriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/Wait.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="103" column="18" lean-forward="true" selection-start-line="103" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/WelcomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/Driver.java">
+    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Footer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="120" column="59" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="59" />
+        <state relative-caret-position="135">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+          <folding>
+            <element signature="e#3215#3216#0" expanded="true" />
+            <element signature="e#3283#3284#0" expanded="true" />
+            <element signature="e#3333#3334#0" expanded="true" />
+            <element signature="e#3405#3406#0" expanded="true" />
+            <element signature="e#4035#4036#0" expanded="true" />
+            <element signature="e#4106#4107#0" expanded="true" />
+            <element signature="e#4157#4158#0" expanded="true" />
+            <element signature="e#4209#4210#0" expanded="true" />
+            <element signature="e#4260#4261#0" expanded="true" />
+            <element signature="e#4323#4324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/OffersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="e#586#587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/SingUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/Controllers/LoginHeader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/deezer/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/Wait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="120" column="60" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/domain/pageObjects/deezer/WelcomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

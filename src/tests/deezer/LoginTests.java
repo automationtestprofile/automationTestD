@@ -1,25 +1,21 @@
 package tests.deezer;
 
-import engine.Driver;
 import engine.domain.Navigate;
-import engine.domain.pageObjects.deezer.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.UiTestRunner;
 
-import java.net.URL;
-
 public class LoginTests extends UiTestRunner {
     public static String userEmail = "mrs.tester.tested@gmail.com";
     public static String userPassword = "P@ssw0rd";
-    public static String userWrongPassword = "fake";
+    public static String userInvalidPassword = "fake";
 
     @Test
     public final void loginFormIsPresent() {
         boolean isLoginFormPresent = Navigate
                 .navigateToDeezerApp()
-                .navigateToSignIn()
-                .isLoginFormContainerIsPresent();
+                .navigateToLoginPage()
+                .isLoginFormIsPresent();
         Assert.assertTrue(isLoginFormPresent, "Login form should be visible on page");
     }
 
@@ -28,76 +24,68 @@ public class LoginTests extends UiTestRunner {
         boolean isSingUpFormIsPresent = Navigate
                 .navigateToDeezerApp()
                 .navigateToSignUp()
-                .isSingUpContainerPresent();
+                .isSingUpFormIsPresent();
         Assert.assertEquals(isSingUpFormIsPresent, true, "Sing up form should be visible on the page");
     }
 
     @Test
-    public final void isOfferContainerPresent() {
-        boolean isOfferContainerPresent = Navigate
+    public final void isPasswordResetDialogWindowIsPresent() {
+        boolean isPasswordResetDialogWindowIsPresent = Navigate
                 .navigateToDeezerApp()
-                .navigateToOfferPage()
-                .isOfferContainerVisible();
-        Assert.assertTrue(isOfferContainerPresent, "Offer container should be visible on page");
-    }
-
-    @Test
-    public final void isPasswordResetPresent() {
-        boolean isPasswordResetPresent = Navigate
-                .navigateToDeezerApp()
-                .navigateToSignIn()
+                .navigateToLoginPage()
                 .clickForgetPassword()
                 .isResetContainerIsVisible();
-        Assert.assertTrue(isPasswordResetPresent, "Reset form should be visible on page");
+        Assert.assertTrue(isPasswordResetDialogWindowIsPresent, "Reset password dialog window should be " +
+                "visible on page");
     }
 
     @Test
-    public final void isPasswordResetIsSuccess() {
-        String isPasswordResetIsSuccess = Navigate
+    public final void checkEmailIsEqualToEnteredWhileReset() {
+        String receivedEmail = Navigate
                 .navigateToDeezerApp()
-                .navigateToSignIn()
-                .clickForgetPassword()
-                .emailReset(userEmail)
-                .clickResetButton()
-                .resetConfirmation();
-        Assert.assertEquals(isPasswordResetIsSuccess, userEmail,
-                "Password reset should be successful");
+                .navigateToLoginPage()
+                .resetPassword(userEmail)
+                .getEmailInResetDialogWindow();
+        Assert.assertEquals(receivedEmail, userEmail,
+                "Received email should be equal to entered email in reset password process");
     }
 
     @Test
-    public final void isMessageResetIsSuccess() {
-        String isMessageResetIsSuccess = Navigate
+    public final void isResetMessageIsCorrect() {
+        String expectedResetConfirmationMessage = "You've got mail!";
+
+        String resetConfirmationMessage = Navigate
                 .navigateToDeezerApp()
-                .navigateToSignIn()
-                .clickForgetPassword()
-                .emailReset(userEmail)
-                .clickResetButton()
-                .messageRecieved();
-        Assert.assertEquals(isMessageResetIsSuccess, "You've got mail!");
+                .navigateToLoginPage()
+                .resetPassword(userEmail)
+                .getResetConfirmationMessage();
+        Assert.assertEquals(resetConfirmationMessage, expectedResetConfirmationMessage);
     }
 
     @Test
     public final void isLoginIsSuccess() {
-        boolean isLoginIsSuccess = Navigate
+        boolean isPlayerPresent = Navigate
                 .navigateToDeezerApp()
-                .navigateToSignIn()
+                .navigateToLoginPage()
                 .login(userEmail, userPassword)
-                .isPlayerPresentOnMainPage();
-        Assert.assertTrue(isLoginIsSuccess, "User should login");
+                .isPlayerPresent();
+        Assert.assertTrue(isPlayerPresent, "User should see player if login is success");
     }
 
     @Test
     public final void isLoginIsFailed() {
-        boolean isLoginIsSuccess = Navigate
+        //add string check failure - compare
+        boolean isIncorrectDataMessageIsPresent = Navigate
                 .navigateToDeezerApp()
-                .navigateToSignIn()
-                .setWrongPassword(userEmail, userWrongPassword)
-                .isMessageAboutNotCorrectDataIsPresent();
-        Assert.assertTrue(isLoginIsSuccess, "User should`nt login");
+                .navigateToLoginPage()
+                .loginWithInvalidPassword(userEmail, userInvalidPassword)
+                .isIncorrectDataMessageIsPresent();
+        Assert.assertTrue(isIncorrectDataMessageIsPresent, "Incorrect data message should be present if user " +
+                "entered invalid login data");
     }
 
     @Test
-    public final void changeLanguage (){
+    public final void changeLanguage(){
         boolean isScroll;
         isScroll = Navigate
                 .navigateToDeezerApp()
@@ -105,5 +93,4 @@ public class LoginTests extends UiTestRunner {
                 .isScrolledElementVisible();
         Assert.assertTrue(isScroll , "Scroll should works");
 }
-
 }

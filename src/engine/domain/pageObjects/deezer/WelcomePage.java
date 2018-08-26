@@ -21,14 +21,18 @@ public class WelcomePage extends LoginHeader {
             new Locatable(SearchBy.CLASSNAME, "hero-block-heading-1",
                     "Welcome text on Main Page");
     public final Locatable languageSelector =
-            new Locatable(SearchBy.CLASSNAME, "btn btn-primary btn-block", "Dropdown with languages");
+            new Locatable(SearchBy.ID, "language_select", "Dropdown with languages");
+
+    private final  Locatable test =
+            new Locatable(SearchBy.XPATH, "//div[contains(text(), 'Deezer HiFi')]",
+                    "Idon for navigate to facebook page");
 
 
     public WelcomePage scroll(){
-
-    scrollToElement(languageSelector);
+    scrollToElement(test);
         return this;
     }
+
     public boolean isScrolledElementVisible(){return  driver.isElementDisplayed(languageSelector);}
 
 }

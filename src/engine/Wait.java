@@ -11,7 +11,7 @@ import java.util.List;
 public final class Wait {
     final static int TIMEOUT = 30;
 
-    public static List<WebElement> gerVisibleElements(WebDriver driver, Locatable locatable) {
+    public static List<WebElement> getVisibleElements(WebDriver driver, Locatable locatable) {
         try {
             return new WebDriverWait(driver, TIMEOUT)
                     .until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locatable.getBy()));
@@ -21,16 +21,17 @@ public final class Wait {
         }
     }
 
-    public static WebElement getVisbleElement(WebDriver driver, Locatable locatable) {
+    public static WebElement getVisibleElement(WebDriver driver, Locatable locatable) {
         try {
             return new WebDriverWait(driver, TIMEOUT)
                     .until(ExpectedConditions.visibilityOfElementLocated(locatable.getBy()));
         } catch (WebDriverException e) {
-            throw new WebDriverException();
+            e.getMessage();
+            throw e;
         }
     }
 
-    public static WebElement getClicableElement(WebDriver driver, Locatable locatable){
+    public static WebElement getClickableElement(WebDriver driver, Locatable locatable){
         try{
             return new WebDriverWait(driver, TIMEOUT)
                     .until(ExpectedConditions.elementToBeClickable(locatable.getBy()));

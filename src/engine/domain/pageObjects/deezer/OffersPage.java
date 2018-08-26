@@ -11,7 +11,7 @@ public class OffersPage extends LoginHeader {
             new Locatable(SearchBy.CLASSNAME, "unlogged-plans-list-container",
                     "Form with information about offers and prices");
 
-    public boolean isOfferContainerVisible() {
+    public boolean isOffersPropositionIsPresent() {
         return driver.isElementDisplayed(offersContainer);
     }
 

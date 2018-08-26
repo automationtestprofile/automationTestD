@@ -23,20 +23,17 @@ public class LoginHeader {
             new Locatable(SearchBy.ID, "topbar-register-button",
                     "Button for navigate to registration page");
 
-    //navigateToLoginPage?
-    public LoginPage navigateToSignIn() {
+    public LoginPage navigateToLoginPage() {
         driver.click(loginButton, null, true);
         return new LoginPage();
     }
 
-    //navigateToRegisterPage
     public SingUpPage navigateToSignUp() {
         driver.click(registrationButton, null, true);
         return new SingUpPage();
     }
 
-    //navigateToOffersPage
-    public OffersPage navigateToOfferPage() {
+    public OffersPage navigateToOffersPage() {
         driver.click(goToRatesButton, null, true);
         return new OffersPage();
     }

@@ -15,7 +15,7 @@ public class Footer {
 
     private final  Locatable facebookIcon =
             new Locatable(SearchBy.CLASSNAME, "svg-icon svg-icon-rounded-facebook",
-                    "Idon for navigate to facebook page");
+                    "Icon for navigate to facebook page");
 
     private final  Locatable tweeterIcon =
             new Locatable(SearchBy.CLASSNAME, "svg-icon svg-icon-rounded-twitter",

@@ -47,17 +47,17 @@ public class LoginPage extends LoginHeader {
             new Locatable(SearchBy.ID, "reset_password_submit",
                     "Submit reset button");
 
-    public final Locatable submitloginButton =
+    public final Locatable submitLoginButton =
             new Locatable(SearchBy.ID, "login_form_submit",
                     "Login button");
 
-    public final Locatable resetMessageSuccess =
+    public final Locatable confirmationResetMessage =
             new Locatable(SearchBy.XPATH, "//div[contains(text(),'got mail')]",
-                    "Message about successful reset email");
+                    "Reset email confirmation message");
 
     public final Locatable wrongLoginDataMessage =
             new Locatable(SearchBy.XPATH, "//div[contains(text(),'Your details are incorrect. Please try again.')]",
-                    "Message about no valid data enter to Login form");
+                    "Message about invalid data enter to Login form");
 
 
 
@@ -73,17 +73,22 @@ public class LoginPage extends LoginHeader {
         return this;
     }
     //find out
-    private MainPage submitloginButton() {
-        driver.click(submitloginButton, null, true);
+    private MainPage submitLogin() {
+        driver.click(submitLoginButton, null, true);
         return new MainPage();
+    }
+
+    private LoginPage submitLoginWithInvalidPassword() {
+        driver.click(submitLoginButton, null, true);
+        return this;
     }
     //find out
     public LoginPage clickLoginButton() {
-        driver.click(submitloginButton, null, true);
+        driver.click(submitLoginButton, null, true);
         return new LoginPage();
     }
 
-    public boolean isLoginFormContainerIsPresent() {
+    public boolean isLoginFormIsPresent() {
         return driver.isElementDisplayed(loginFormContainer);
     }
 
@@ -101,7 +106,7 @@ public class LoginPage extends LoginHeader {
         return this;
     }
 
-    public LoginPage emailReset(String userEmail) {
+    public LoginPage setEmailToReset(String userEmail) {
         driver.setText(resetEmailField, userEmail, true);
         return this;
     }
@@ -110,31 +115,35 @@ public class LoginPage extends LoginHeader {
         return driver.isElementDisplayed(successResetPasswordContainer);
     }
 
-    public boolean isMessageAboutNotCorrectDataIsPresent(){
+    public boolean isIncorrectDataMessageIsPresent(){
         return driver.isElementDisplayed(wrongLoginDataMessage);
     }
 
-    public String resetConfirmation() {
+    public String getEmailInResetDialogWindow() {
         return driver.getText(confirmedMail);
     }
 
-    public String messageRecieved() {
-        return driver.getText(resetMessageSuccess);
+    public String getResetConfirmationMessage() {
+        return driver.getText(confirmationResetMessage);
     }
 
     public MainPage login (String userEmail, String userPassword){
 
        return setEmail(userEmail)
                 .setPassword(userPassword)
-                .submitloginButton();
+                .submitLogin();
     }
 
-    public LoginPage setWrongPassword (String userEmail, String userWrongPassword){
-        setEmail(userEmail);
-        setPassword(userWrongPassword);
-        submitloginButton();
+    public LoginPage loginWithInvalidPassword (String userEmail, String invalidPassword){
+      return setEmail(userEmail)
+              .setPassword(invalidPassword)
+              .submitLoginWithInvalidPassword();
+    }
 
-        return this;
+    public LoginPage resetPassword (String userEmail){
+        return clickForgetPassword()
+                .setEmailToReset(userEmail)
+                .clickResetButton();
     }
 
 
