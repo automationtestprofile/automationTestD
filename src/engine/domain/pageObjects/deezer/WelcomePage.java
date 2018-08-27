@@ -21,18 +21,52 @@ public class WelcomePage extends LoginHeader {
             new Locatable(SearchBy.CLASSNAME, "hero-block-heading-1",
                     "Welcome text on Main Page");
     public final Locatable languageSelector =
-            new Locatable(SearchBy.ID, "language_select", "Dropdown with languages");
+            new Locatable(SearchBy.CLASSNAME, "lang-label", "Dropdown with languages");
 
     private final  Locatable test =
-            new Locatable(SearchBy.XPATH, "//div[contains(text(), 'Deezer HiFi')]",
-                    "Idon for navigate to facebook page");
+            new Locatable(SearchBy.XPATH, "//option[@value='ru']",
+                    "Icon for navigate to facebook page");
 
+    private final Locatable agreeWithCookiesButton =
+            new Locatable(SearchBy.CLASSNAME, "cookie-right",
+                    "Accept cookies usage button");
 
-    public WelcomePage scroll(){
-    scrollToElement(test);
+    private final Locatable russianLanguage =
+            new Locatable(SearchBy.XPATH, "//*[@id=\"language_select\"]/option[19]", "Russian Language of interface");
+
+    private final Locatable welcomeText =
+            new Locatable(SearchBy.CLASSNAME, "hero-block-heading-1", "First Welcome Paragraph");
+
+    public WelcomePage acceptUsageCookies()
+    {
+        driver.click(agreeWithCookiesButton, null, true);
+                return this;
+    }
+
+    public WelcomePage scrollToChooseLanguage(){
+        scrollToElement(languageSelector);
         return this;
     }
 
-    public boolean isScrolledElementVisible(){return  driver.isElementDisplayed(languageSelector);}
+    private WelcomePage clickOnLanguageList(){
+        driver.click(languageSelector, null, true);
+        return this;
+    }
+
+    private WelcomePage selectRussian(){
+        driver.click(russianLanguage, null, true);
+        return this;
+    }
+
+    public String getWelcomeText()
+    {
+        return driver.getText(welcomeText);
+    }
+
+    public WelcomePage changeLanguage()
+    {
+        return clickOnLanguageList()
+                .selectRussian();
+    }
 
 }

@@ -84,13 +84,5 @@ public class LoginTests extends UiTestRunner {
                 "entered invalid login data");
     }
 
-    @Test
-    public final void changeLanguage(){
-        boolean isScroll;
-        isScroll = Navigate
-                .navigateToDeezerApp()
-                .scroll()
-                .isScrolledElementVisible();
-        Assert.assertTrue(isScroll , "Scroll should works");
-}
+
 }
