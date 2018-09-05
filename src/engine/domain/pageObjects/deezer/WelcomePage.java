@@ -31,45 +31,40 @@ public class WelcomePage extends LoginHeader {
             new Locatable(SearchBy.CLASSNAME, "cookie-right",
                     "Accept cookies usage button");
 
-    private final Locatable lyrics =
-            new Locatable(SearchBy.XPATH, "//*[contains(text(),'Lyrics')]",
+    private final Locatable lyricsTab =
+            new Locatable(SearchBy.XPATH, "(//*[@class='homepage-discover-link'])[3]",
                     "Lyrics tab");
 
-    private final Locatable channel =
-            new Locatable(SearchBy.XPATH, "//*[contains(text(),'Channel')]",
+    private final Locatable channelTab =
+            new Locatable(SearchBy.XPATH, "(//*[@class='homepage-discover-link'])[2]",
                     "Channel tab");
 
     private final Locatable offlineModeTab =
-            new Locatable(SearchBy.XPATH, "//*[contains(text(),'Offline mode')]",
+            new Locatable(SearchBy.XPATH, "//*[@class='homepage-discover-link']",
                     "Offline mode tab");
 
-    private final Locatable eQ =
-            new Locatable(SearchBy.XPATH, "//*[contains(text(),'EQ')]",
+    private final Locatable eQTab =
+            new Locatable(SearchBy.XPATH, "(//*[@class='homepage-discover-link'])[4]",
                     "Emotional Intelligence tab");
 
     private final Locatable offlineModeTabText =
-            new Locatable(SearchBy.XPATH, "//*[contains(text(),'Download your favourite songs, playlists and " +
-                    "albums on WiFi then find them all in one place to listen to later. ')], " ,
+            new Locatable(SearchBy.XPATH, "//*[@class='visible']",
                     "Text from Offline mode block");
 
     private final Locatable channelText =
-            new Locatable(SearchBy.XPATH, "//*[contains(text(),'Browse curated collections of music and " +
-                    "podcasts by genre to discover new classics and hidden gems.')], " ,
+            new Locatable(SearchBy.XPATH, "//*[@class='visible']",
                     "Text from Channel block");
 
     private final Locatable lyricsText =
-            new Locatable(SearchBy.XPATH, "//*[contains(text(),'The days of pretending you know the words are " +
-                    "over! See the lyrics to all your favourites on-screen and never sing" +
-                    " \"sweet dreams are made of cheese\" again.')], " ,
+            new Locatable(SearchBy.XPATH, "//*[@class='visible']",
                     "Text from Lyrics block");
 
     private final Locatable eQText =
-            new Locatable(SearchBy.XPATH, "//*[contains(text(),'Tweak the equalizer and hear your music exactly " +
-                    "like you like it.')], " ,
+            new Locatable(SearchBy.XPATH, "//*[@class='visible']",
                     "Text from Lyrics block");
 
     private final Locatable russianLanguage =
-            new Locatable(SearchBy.XPATH, "//*[@id=\"language_select\"]/option[19]", "Russian Language of interface");
+            new Locatable(SearchBy.XPATH, "//*[@value='ru']", "Russian Language of interface");
 
     private final Locatable welcomeText =
             new Locatable(SearchBy.CLASSNAME, "hero-block-heading-1", "First Welcome Paragraph");
@@ -108,11 +103,37 @@ public class WelcomePage extends LoginHeader {
         return this;
     }
 
-    public boolean isOfflineModeTextCorrect(){return driver.isElementDisplayed(offlineModeTabText);}
+    public boolean isOfflineModeTextCorrect() {
+        return driver.isElementDisplayed(offlineModeTabText);
+    }
 
-    public boolean isChannelTextCorrect() {return driver.isElementDisplayed(channelText);}
+    public String getChanelTabText() {
+        return driver.getText(offlineModeTabText);
 
-    public boolean isLyricsTextCorrect() {return  driver.isElementDisplayed(lyricsText);}
+    }
 
-    public boolean isEqTextCorrect() {return  driver.isElementDisplayed(eQText);}
+    public String getLyricsTabText() {
+        return driver.getText(lyricsText);
+
+    }
+
+    public String getEqTabText() {
+        return driver.getText(eQText);
+
+    }
+
+    public WelcomePage clickOnChannelTab() {
+        driver.click(channelTab, null, true);
+        return this;
+    }
+
+    public WelcomePage clickOnLyricsTab() {
+        driver.click(lyricsTab, null, true);
+        return this;
+    }
+
+    public WelcomePage clickOnEqTab() {
+        driver.click(eQTab, null, true);
+        return this;
+    }
 }
