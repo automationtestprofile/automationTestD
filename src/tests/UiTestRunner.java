@@ -1,13 +1,18 @@
 package tests;
 
 import engine.Driver;
-import org.testng.ITestListener;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import engine.utils.LoggerUtil;
+import engine.utils.TestListener;
+import org.testng.annotations.*;
 
+@Listeners(TestListener.class)
 public class UiTestRunner  {
     Driver driver = new Driver();
 
+    @BeforeClass
+    public final void beforeClass(){
+        LoggerUtil.startTestCase("Test case: " + getClass().getName() + " is running...");
+    }
     @BeforeTest
     public final void beforeTest(){
         driver.start();
@@ -18,4 +23,8 @@ public class UiTestRunner  {
         driver.quit();
     }
 
+    @AfterClass
+    public final void afterClass(){
+        LoggerUtil.endTestCase();
+    }
 }

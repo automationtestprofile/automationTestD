@@ -1,6 +1,7 @@
 package tests.deezer;
 
 import engine.domain.Navigate;
+import engine.domain.pageObjects.deezer.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -83,12 +84,10 @@ public class LoginTests extends UiTestRunner {
                 .navigateToLoginPage()
                 .loginWithInvalidPassword(userEmail, userInvalidPassword)
                 .getWrongLoginMessage();
-        SoftAssert softAssertion= new SoftAssert();
-        softAssertion.assertNotNull(wrongLoginDataMessage);
+
+        SoftAssert softAssertion = new SoftAssert();
+        softAssertion.assertNull(wrongLoginDataMessage);
         softAssertion.assertEquals(wrongLoginDataMessage, expectedMessage);
-        System.out.println("Second one was executed");
         softAssertion.assertAll();
     }
-
-
 }
