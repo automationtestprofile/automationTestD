@@ -3,6 +3,7 @@ package tests.deezer;
 import engine.domain.Navigate;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import tests.UiTestRunner;
 
 public class LoginTests extends UiTestRunner {
@@ -70,18 +71,23 @@ public class LoginTests extends UiTestRunner {
                 .login(userEmail, userPassword)
                 .isPlayerPresent();
         Assert.assertTrue(isPlayerPresent, "User should see player if login is success");
+
     }
 
     @Test
     public final void isLoginIsFailed() {
-        //add string check failure - compare
-        boolean isIncorrectDataMessageIsPresent = Navigate
+        String expectedMessage = "Your details are incorrect. Please try again.";
+
+        String wrongLoginDataMessage = Navigate
                 .navigateToDeezerApp()
                 .navigateToLoginPage()
                 .loginWithInvalidPassword(userEmail, userInvalidPassword)
-                .isIncorrectDataMessageIsPresent();
-        Assert.assertTrue(isIncorrectDataMessageIsPresent, "Incorrect data message should be present if user " +
-                "entered invalid login data");
+                .getWrongLoginMessage();
+        SoftAssert softAssertion= new SoftAssert();
+        softAssertion.assertNotNull(wrongLoginDataMessage);
+        softAssertion.assertEquals(wrongLoginDataMessage, expectedMessage);
+        System.out.println("Second one was executed");
+        softAssertion.assertAll();
     }
 
 

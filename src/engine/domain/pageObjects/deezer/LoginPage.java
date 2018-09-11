@@ -119,6 +119,10 @@ public class LoginPage extends LoginHeader {
         return driver.isElementDisplayed(wrongLoginDataMessage);
     }
 
+    public String getWrongLoginMessage(){
+        return driver.getText(wrongLoginDataMessage);
+    }
+
     public String getEmailInResetDialogWindow() {
         return driver.getText(confirmedMail);
     }
