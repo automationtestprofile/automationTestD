@@ -1,12 +1,13 @@
 package engine;
 
 import engine.domain.pageObjects.deezer.WelcomePage;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 
+import java.io.File;
 import java.util.List;
 import java.util.stream.Collectors;
+
 
 public final class Driver {
     final static String BROWSER_NAME = "chrome";
@@ -123,6 +124,17 @@ public final class Driver {
         catch (Exception e){
             e.printStackTrace();
         }
+
+    }
+
+    public static void takeSnapShot(WebDriver instance, String fileWithPath)
+        throws Exception{
+        TakesScreenshot scrShot =((TakesScreenshot)instance);
+        File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
+        File DestFile=new File(fileWithPath);
+        FileUtils.copyFile(SrcFile, DestFile);
+
+
 
     }
 }

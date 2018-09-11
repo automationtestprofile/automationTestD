@@ -1,10 +1,11 @@
 package tests;
 
 import engine.Driver;
+import org.testng.ITestListener;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-public class UiTestRunner {
+public class UiTestRunner  {
     Driver driver = new Driver();
 
     @BeforeTest
@@ -16,4 +17,5 @@ public class UiTestRunner {
     public final void afterTest(){
         driver.quit();
     }
+
 }
