@@ -4,13 +4,15 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
 import engine.utils.LoggerUtil;
 
 public final class Driver {
-    final static String BROWSER_NAME = "edge";
+    final static String BROWSER_NAME = "chrome";
     private static WebDriver instance;
 
     public static WebDriver getInstance() {
@@ -159,6 +161,10 @@ public final class Driver {
         File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
         File DestFile=new File(fileWithPath);
         FileUtils.copyFile(SrcFile, DestFile);
+    }
+
+    public static String timestamp() {
+        return new SimpleDateFormat("yyyy-MM-dd HH-mm-ss").format(new Date());
     }
 }
 

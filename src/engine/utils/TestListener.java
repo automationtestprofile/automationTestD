@@ -5,12 +5,14 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import static engine.Driver.timestamp;
+
 public class TestListener implements ITestListener {
     Driver driver = new Driver();
 
     public void onTestFailure(ITestResult result) {
         try {
-            driver.takeSnapShot(Driver.getInstance(), "D:\\scshots\\error.png");
+            driver.takeSnapShot(Driver.getInstance(), "D:\\personal\\errors\\fail  "+timestamp()+".png");
         } catch (Exception e) {
             e.printStackTrace();
         }

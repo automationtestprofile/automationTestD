@@ -2,3 +2,92 @@
 2018-09-11 23:12:16 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test case: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
 2018-09-11 23:12:16 INFO  LoggerUtil:14 - ****************************************************************************************
 2018-09-11 23:12:24 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-12 11:16:20 INFO  LoggerUtil:26 - Starting browser: EDGE
+2018-09-12 11:16:20 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-12 11:16:20 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test case: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-12 11:16:20 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-12 11:16:23 INFO  LoggerUtil:26 - Loaded: https://www.deezer.com/en
+2018-09-12 11:16:24 INFO  LoggerUtil:26 - Clicked on Button for navigate to login page
+2018-09-12 11:16:25 INFO  LoggerUtil:26 - Created 'Email field on Login Page'
+2018-09-12 11:16:25 INFO  LoggerUtil:26 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-12 11:16:25 INFO  LoggerUtil:26 - Created 'Password field on Login Page'
+2018-09-12 11:16:25 INFO  LoggerUtil:26 - Filled 'Password field on Login Page' with text fake
+2018-09-12 11:16:25 INFO  LoggerUtil:26 - Clicked on Login button
+2018-09-12 11:16:56 ERROR LoggerUtil:38 - Failed to get text from 'engine.Locatable@4b88ca8e': Expected condition failed: waiting for visibility of element located by By.xpath: //div[contains(text(),'Your details are incorrect. Please try again.')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {InPrivate: false, acceptSslCerts: true, applicationCacheEnabled: true, browserName: MicrosoftEdge, browserVersion: 42.17134.1.0, javascriptEnabled: true, locationContextEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10, takesElementScreenshot: true, takesScreenshot: true, webStorageEnabled: true}
+Session ID: FE43A873-808E-47E3-944A-669012AAF853
+2018-09-12 11:16:56 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-12 11:16:57 INFO  LoggerUtil:26 - Closed browser
+2018-09-12 11:20:15 INFO  LoggerUtil:26 - Starting browser: CHROME
+2018-09-12 11:20:15 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-12 11:20:15 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test case: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-12 11:20:15 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-12 11:20:18 INFO  LoggerUtil:26 - Loaded: https://www.deezer.com/en
+2018-09-12 11:20:20 INFO  LoggerUtil:26 - Clicked on Button for navigate to login page
+2018-09-12 11:20:20 INFO  LoggerUtil:26 - Created 'Email field on Login Page'
+2018-09-12 11:20:20 INFO  LoggerUtil:26 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-12 11:20:20 INFO  LoggerUtil:26 - Created 'Password field on Login Page'
+2018-09-12 11:20:21 INFO  LoggerUtil:26 - Filled 'Password field on Login Page' with text fake
+2018-09-12 11:20:21 INFO  LoggerUtil:26 - Clicked on Login button
+2018-09-12 11:20:21 INFO  LoggerUtil:26 - Got 'Your details are incorrect. Please try again.' from 'Message about invalid data enter to Login form'
+2018-09-12 11:20:22 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-12 11:20:23 INFO  LoggerUtil:26 - Closed browser
+2018-09-12 11:22:02 INFO  LoggerUtil:26 - Starting browser: CHROME
+2018-09-12 11:22:02 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-12 11:22:02 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test case: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-12 11:22:02 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-12 11:22:05 INFO  LoggerUtil:26 - Loaded: https://www.deezer.com/en
+2018-09-12 11:22:09 INFO  LoggerUtil:26 - Clicked on Button for navigate to login page
+2018-09-12 11:22:09 INFO  LoggerUtil:26 - Created 'Email field on Login Page'
+2018-09-12 11:22:09 INFO  LoggerUtil:26 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-12 11:22:09 INFO  LoggerUtil:26 - Created 'Password field on Login Page'
+2018-09-12 11:22:09 INFO  LoggerUtil:26 - Filled 'Password field on Login Page' with text fake
+2018-09-12 11:22:10 INFO  LoggerUtil:26 - Clicked on Login button
+2018-09-12 11:22:10 INFO  LoggerUtil:26 - Got 'Your details are incorrect. Please try again.' from 'Message about invalid data enter to Login form'
+2018-09-12 11:22:11 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-12 11:22:12 INFO  LoggerUtil:26 - Closed browser
+2018-09-12 11:26:13 INFO  LoggerUtil:26 - Starting browser: CHROME
+2018-09-12 11:26:13 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-12 11:26:13 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test case: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-12 11:26:13 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-12 11:26:16 INFO  LoggerUtil:26 - Loaded: https://www.deezer.com/en
+2018-09-12 11:26:18 INFO  LoggerUtil:26 - Clicked on Button for navigate to login page
+2018-09-12 11:26:18 INFO  LoggerUtil:26 - Created 'Email field on Login Page'
+2018-09-12 11:26:18 INFO  LoggerUtil:26 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-12 11:26:19 INFO  LoggerUtil:26 - Created 'Password field on Login Page'
+2018-09-12 11:26:19 INFO  LoggerUtil:26 - Filled 'Password field on Login Page' with text fake
+2018-09-12 11:26:19 INFO  LoggerUtil:26 - Clicked on Login button
+2018-09-12 11:26:19 INFO  LoggerUtil:26 - Got 'Your details are incorrect. Please try again.' from 'Message about invalid data enter to Login form'
+2018-09-12 11:26:20 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-12 11:26:21 INFO  LoggerUtil:26 - Closed browser
+2018-09-12 11:27:40 INFO  LoggerUtil:26 - Starting browser: CHROME
+2018-09-12 11:27:40 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-12 11:27:40 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test case: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-12 11:27:40 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-12 11:27:45 INFO  LoggerUtil:26 - Loaded: https://www.deezer.com/en
+2018-09-12 11:27:46 INFO  LoggerUtil:26 - Clicked on Button for navigate to login page
+2018-09-12 11:27:46 INFO  LoggerUtil:26 - Created 'Email field on Login Page'
+2018-09-12 11:27:47 INFO  LoggerUtil:26 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-12 11:27:47 INFO  LoggerUtil:26 - Created 'Password field on Login Page'
+2018-09-12 11:27:47 INFO  LoggerUtil:26 - Filled 'Password field on Login Page' with text fake
+2018-09-12 11:27:47 INFO  LoggerUtil:26 - Clicked on Login button
+2018-09-12 11:27:47 INFO  LoggerUtil:26 - Got 'Your details are incorrect. Please try again.' from 'Message about invalid data enter to Login form'
+2018-09-12 11:27:48 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-12 11:27:49 INFO  LoggerUtil:26 - Closed browser
+2018-09-12 11:29:44 INFO  LoggerUtil:26 - Starting browser: CHROME
+2018-09-12 11:29:44 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-12 11:29:44 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test case: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-12 11:29:44 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-12 11:29:47 INFO  LoggerUtil:26 - Loaded: https://www.deezer.com/en
+2018-09-12 11:29:49 INFO  LoggerUtil:26 - Clicked on Button for navigate to login page
+2018-09-12 11:29:49 INFO  LoggerUtil:26 - Created 'Email field on Login Page'
+2018-09-12 11:29:50 INFO  LoggerUtil:26 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-12 11:29:50 INFO  LoggerUtil:26 - Created 'Password field on Login Page'
+2018-09-12 11:29:50 INFO  LoggerUtil:26 - Filled 'Password field on Login Page' with text fake
+2018-09-12 11:29:50 INFO  LoggerUtil:26 - Clicked on Login button
+2018-09-12 11:29:50 INFO  LoggerUtil:26 - Got 'Your details are incorrect. Please try again.' from 'Message about invalid data enter to Login form'
+2018-09-12 11:29:51 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-12 11:29:51 INFO  LoggerUtil:26 - Closed browser
