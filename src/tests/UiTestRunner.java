@@ -15,6 +15,7 @@ public class UiTestRunner  {
     }
     @BeforeTest
     public final void beforeTest(){
+
         driver.start();
 
     }
