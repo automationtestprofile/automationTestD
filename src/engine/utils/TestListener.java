@@ -12,7 +12,8 @@ public class TestListener implements ITestListener {
 
     public void onTestFailure(ITestResult result) {
         try {
-            driver.takeSnapShot(Driver.getInstance(), "D:\\personal\\errors\\fail  "+timestamp()+".png");
+            driver.takeSnapShot(Driver.getInstance(), "D:\\personal\\errors\\Test"+"  "+result.getName()+" "+
+                    "in"+" "+timestamp()+".png");
         } catch (Exception e) {
             e.printStackTrace();
         }
