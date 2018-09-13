@@ -285,3 +285,684 @@ Session ID: FE43A873-808E-47E3-944A-669012AAF853
 2018-09-12 12:37:58 INFO  LoggerUtil:26 - Got 'Your details are incorrect. Please try again.' from 'Message about invalid data enter to Login form'
 2018-09-12 12:37:58 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
 2018-09-12 12:37:59 INFO  LoggerUtil:26 - Closed browser
+2018-09-13 14:37:41 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 14:37:41 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 14:37:41 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test case[Ljava.lang.reflect.Method;@436bc36is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:37:41 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 14:37:41 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 14:37:41 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:37:41 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 14:37:46 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 14:37:46 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@70a36a66
+2018-09-13 14:37:49 INFO  LoggerUtil:34 - Clicked on Button for navigate to login page
+2018-09-13 14:37:49 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@62163b39
+2018-09-13 14:37:49 INFO  LoggerUtil:34 - Clicked on Link to form for recovering password
+2018-09-13 14:37:49 INFO  LoggerUtil:34 - Waiting for elementengine.Locatable@2f9a01c1
+2018-09-13 14:37:50 INFO  LoggerUtil:34 - Created 'Field for email in Reset container'
+2018-09-13 14:37:50 INFO  LoggerUtil:34 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-13 14:37:50 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@464649c
+2018-09-13 14:37:50 INFO  LoggerUtil:34 - Clicked on Submit reset button
+2018-09-13 14:37:50 INFO  LoggerUtil:34 - Waiting for elementengine.Locatable@538613b3
+2018-09-13 14:37:51 INFO  LoggerUtil:34 - Got 'You've got mail!' from 'Reset email confirmation message'
+2018-09-13 14:37:51 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 14:37:52 INFO  LoggerUtil:34 - Closed browser
+2018-09-13 14:38:58 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 14:38:58 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 14:38:58 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test case[Ljava.lang.reflect.Method;@758705fais running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:38:58 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 14:38:58 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 14:38:58 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:38:58 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 14:39:04 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 14:39:04 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@7216fb24
+2018-09-13 14:39:06 INFO  LoggerUtil:34 - Clicked on Button for navigate to login page
+2018-09-13 14:39:06 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@26425897
+2018-09-13 14:39:06 INFO  LoggerUtil:34 - Clicked on Link to form for recovering password
+2018-09-13 14:39:06 INFO  LoggerUtil:34 - Waiting for elementengine.Locatable@78fb9a67
+2018-09-13 14:39:07 INFO  LoggerUtil:34 - Created 'Field for email in Reset container'
+2018-09-13 14:39:07 INFO  LoggerUtil:34 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-13 14:39:07 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@34645867
+2018-09-13 14:39:07 INFO  LoggerUtil:34 - Clicked on Submit reset button
+2018-09-13 14:39:07 INFO  LoggerUtil:34 - Waiting for elementengine.Locatable@2187fff7
+2018-09-13 14:39:07 INFO  LoggerUtil:34 - Got 'mrs.tester.tested@gmail.com' from 'Email user on which confirm letter was sent'
+2018-09-13 14:39:08 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 14:39:08 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@6c4f9535
+2018-09-13 14:39:10 INFO  LoggerUtil:34 - Clicked on Button for navigate to login page
+2018-09-13 14:39:10 INFO  LoggerUtil:34 - Waiting for elementengine.Locatable@2fb68ec6
+2018-09-13 14:39:10 INFO  LoggerUtil:34 - Created 'Email field on Login Page'
+2018-09-13 14:39:10 INFO  LoggerUtil:34 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-13 14:39:10 INFO  LoggerUtil:34 - Waiting for elementengine.Locatable@771158fb
+2018-09-13 14:39:11 INFO  LoggerUtil:34 - Created 'Password field on Login Page'
+2018-09-13 14:39:11 INFO  LoggerUtil:34 - Filled 'Password field on Login Page' with text fake
+2018-09-13 14:39:11 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@6b04acb2
+2018-09-13 14:39:11 INFO  LoggerUtil:34 - Clicked on Login button
+2018-09-13 14:39:11 INFO  LoggerUtil:34 - Waiting for elementengine.Locatable@732bb66d
+2018-09-13 14:39:11 INFO  LoggerUtil:34 - Got 'Your details are incorrect. Please try again.' from 'Message about invalid data enter to Login form'
+2018-09-13 14:39:13 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 14:39:13 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@5c92166b
+2018-09-13 14:39:14 INFO  LoggerUtil:34 - Clicked on Button for navigate to login page
+2018-09-13 14:39:14 INFO  LoggerUtil:34 - Waiting for elementengine.Locatable@15fb7a32
+2018-09-13 14:39:14 INFO  LoggerUtil:34 - Created 'Email field on Login Page'
+2018-09-13 14:39:15 INFO  LoggerUtil:34 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-13 14:39:15 INFO  LoggerUtil:34 - Waiting for elementengine.Locatable@1e54cb33
+2018-09-13 14:39:15 INFO  LoggerUtil:34 - Created 'Password field on Login Page'
+2018-09-13 14:39:15 INFO  LoggerUtil:34 - Filled 'Password field on Login Page' with text P@ssw0rd
+2018-09-13 14:39:15 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@43034809
+2018-09-13 14:39:19 INFO  LoggerUtil:34 - Clicked on Login button
+2018-09-13 14:39:19 INFO  LoggerUtil:34 - Waiting for visibility of engine.Locatable@1de9d54
+2018-09-13 14:39:22 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 14:39:22 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@6642dc5a
+2018-09-13 14:39:52 ERROR LoggerUtil:46 - Failed to find clickable element'engine.Locatable@6642dc5a':Expected condition failed: waiting for element to be clickable: By.id: topbar-login-button (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-13 14:39:52 ERROR LoggerUtil:46 - Failed to click on 'engine.Locatable@6642dc5a': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-13 14:39:52 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@2d119405
+2018-09-13 14:40:22 ERROR LoggerUtil:46 - Failed to find clickable element'engine.Locatable@2d119405':Expected condition failed: waiting for element to be clickable: By.xpath: //span[text()='Forgotten your password?'] (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-13 14:40:22 ERROR LoggerUtil:46 - Failed to click on 'engine.Locatable@2d119405': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-13 14:40:22 INFO  LoggerUtil:34 - Waiting for visibility of engine.Locatable@7a55fb81
+2018-09-13 14:40:53 ERROR LoggerUtil:46 - Failed to find visible webElement'engine.Locatable@7a55fb81':Expected condition failed: waiting for visibility of element located by By.id: reset_first (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-13 14:40:53 ERROR LoggerUtil:46 - Can't discover visibility of element 'engine.Locatable@7a55fb81': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-13 14:40:55 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 14:40:55 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@506b083
+2018-09-13 14:41:25 ERROR LoggerUtil:46 - Failed to find clickable element'engine.Locatable@506b083':Expected condition failed: waiting for element to be clickable: By.id: topbar-login-button (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-13 14:41:25 ERROR LoggerUtil:46 - Failed to click on 'engine.Locatable@506b083': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-13 14:41:25 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@788d9139
+2018-09-13 14:44:22 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 14:44:22 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 14:44:22 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test casenullis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:44:22 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 14:44:22 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 14:44:22 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:44:22 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 14:45:00 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 14:45:00 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 14:45:30 ERROR LoggerUtil:46 - Failed to find clickable element'engine.Locatable@35a9782c':Expected condition failed: waiting for element to be clickable: By.id: topbar-login-button (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-13 14:45:30 ERROR LoggerUtil:46 - Failed to click on 'engine.Locatable@35a9782c': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-13 14:45:30 INFO  LoggerUtil:34 - Waiting for visibility of engine.Locatable@12010fd1
+2018-09-13 14:46:01 ERROR LoggerUtil:46 - Failed to find visible webElement'engine.Locatable@12010fd1':Expected condition failed: waiting for visibility of element located by By.id: login_form (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-13 14:46:01 ERROR LoggerUtil:46 - Can't discover visibility of element 'engine.Locatable@12010fd1': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-13 14:46:01 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 14:46:01 INFO  LoggerUtil:34 - Closed browser
+2018-09-13 14:47:48 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 14:47:48 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 14:47:48 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test case[Ljava.lang.reflect.Method;@436bc36is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:47:48 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 14:47:48 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 14:47:48 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:47:48 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 14:47:57 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 14:47:57 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@70a36a66
+2018-09-13 14:48:04 INFO  LoggerUtil:34 - Clicked on Button for navigate to registration page
+2018-09-13 14:48:04 INFO  LoggerUtil:34 - Waiting for visibility of engine.Locatable@55b5f5d2
+2018-09-13 14:48:04 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 14:48:05 INFO  LoggerUtil:34 - Closed browser
+2018-09-13 14:49:17 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 14:49:17 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 14:49:17 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test case[Ljava.lang.reflect.Method;@436bc36is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:49:17 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 14:49:17 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 14:49:17 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:49:17 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 14:49:33 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 14:49:33 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@70a36a66
+2018-09-13 14:49:37 INFO  LoggerUtil:34 - Clicked on Button for navigate to registration page
+2018-09-13 14:49:37 INFO  LoggerUtil:34 - Waiting for visibility of engine.Locatable@6941827a
+2018-09-13 14:49:37 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 14:49:38 INFO  LoggerUtil:34 - Closed browser
+2018-09-13 14:55:46 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 14:55:46 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 14:55:46 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test case[Ljava.lang.reflect.Method;@5fe1ce85is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:55:46 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 14:55:46 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 14:55:46 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:55:46 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 14:56:04 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 14:56:04 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@45815ffc
+2018-09-13 14:56:17 INFO  LoggerUtil:34 - Clicked on Button for navigate to login page
+2018-09-13 14:56:17 INFO  LoggerUtil:34 - Waiting for visibility of engine.Locatable@20a8a64e
+2018-09-13 14:56:17 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 14:56:18 INFO  LoggerUtil:34 - Closed browser
+2018-09-13 14:57:06 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 14:57:06 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test case[Ljava.lang.reflect.Method;@68be2bc2is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:57:06 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 14:57:06 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 14:57:06 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 14:57:06 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 14:57:12 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 15:04:11 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 15:04:11 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 15:04:11 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test case[Ljava.lang.reflect.Method;@436bc36is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 15:04:11 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 15:04:11 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 15:04:11 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 15:04:11 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 15:04:19 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 15:04:19 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@70a36a66
+2018-09-13 15:04:21 INFO  LoggerUtil:34 - Clicked on Button for navigate to login page
+2018-09-13 15:04:21 INFO  LoggerUtil:34 - Waiting for visibility of engine.Locatable@62163b39
+2018-09-13 15:04:21 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 15:04:22 INFO  LoggerUtil:34 - Closed browser
+2018-09-13 15:04:54 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 15:04:54 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 15:04:54 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test caseorg.testng.annotations.Testis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 15:04:54 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 15:04:54 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 15:04:54 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 15:04:54 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 15:05:01 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 15:05:01 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 15:05:04 INFO  LoggerUtil:34 - Clicked on Button for navigate to login page
+2018-09-13 15:05:04 INFO  LoggerUtil:34 - Waiting for visibility of engine.Locatable@56a4479a
+2018-09-13 15:05:04 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 15:05:05 INFO  LoggerUtil:34 - Closed browser
+2018-09-13 15:05:35 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 15:05:35 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 15:05:35 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test casenullis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 15:05:35 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 15:05:35 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 15:05:35 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 15:05:35 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 15:05:41 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 15:05:41 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 15:55:08 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 15:55:08 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 15:55:08 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test case[Ljava.lang.reflect.Method;@436bc36is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 15:55:08 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 15:55:08 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 15:55:08 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 15:55:08 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 15:55:16 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 15:55:16 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@70a36a66
+2018-09-13 15:55:18 INFO  LoggerUtil:34 - Clicked on Button for navigate to login page
+2018-09-13 15:55:18 INFO  LoggerUtil:34 - Waiting for visibility of engine.Locatable@62163b39
+2018-09-13 15:55:19 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 15:55:20 INFO  LoggerUtil:34 - Closed browser
+2018-09-13 15:56:21 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 15:56:21 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 15:56:21 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test caseorg.testng.ITestContextis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 15:56:21 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 15:56:21 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 15:56:21 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 15:56:21 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 15:57:12 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 16:17:15 INFO  LoggerUtil:34 - Starting browser: CHROME
+2018-09-13 16:17:15 INFO  LoggerUtil:25 - ****************************************************************************************
+2018-09-13 16:17:15 INFO  LoggerUtil:27 - $$$$$$$$$$$$$$$$$$$$$                 Test caseis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:17:15 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 16:17:15 INFO  LoggerUtil:10 - ****************************************************************************************
+2018-09-13 16:17:15 INFO  LoggerUtil:12 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:17:15 INFO  LoggerUtil:14 - ****************************************************************************************
+2018-09-13 16:17:28 INFO  LoggerUtil:34 - Loaded: https://www.deezer.com/en
+2018-09-13 16:17:28 INFO  LoggerUtil:34 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 16:17:35 INFO  LoggerUtil:34 - Clicked on Button for navigate to login page
+2018-09-13 16:17:35 INFO  LoggerUtil:34 - Waiting for visibility of engine.Locatable@62452cc9
+2018-09-13 16:17:35 INFO  LoggerUtil:20 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 16:17:36 INFO  LoggerUtil:34 - Closed browser
+2018-09-13 16:54:46 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 16:54:46 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 16:54:46 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test casedaria_projectis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:54:46 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 16:54:46 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 16:54:46 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:54:46 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 16:54:51 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 16:54:51 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@23fb172e
+2018-09-13 16:54:53 INFO  LoggerUtil:35 - Clicked on Button for navigate to registration page
+2018-09-13 16:54:53 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@5e81e5ac
+2018-09-13 16:54:53 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 16:54:54 INFO  LoggerUtil:35 - Closed browser
+2018-09-13 16:55:49 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 16:55:49 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 16:55:49 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test caseorg.testng.xml.XmlTest@d289127fis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:55:49 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 16:55:49 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 16:55:49 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:55:49 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 16:55:55 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 16:55:55 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@23fb172e
+2018-09-13 16:55:57 INFO  LoggerUtil:35 - Clicked on Button for navigate to registration page
+2018-09-13 16:55:57 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@5e81e5ac
+2018-09-13 16:55:57 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 16:55:58 INFO  LoggerUtil:35 - Closed browser
+2018-09-13 16:56:37 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 16:56:37 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 16:56:37 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test caseorg.testng.SuiteRunner@77b14724is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:56:37 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 16:56:37 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 16:56:37 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:56:37 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 16:56:40 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 16:56:40 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@64ba3208
+2018-09-13 16:56:42 INFO  LoggerUtil:35 - Clicked on Button for navigate to registration page
+2018-09-13 16:56:42 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@34997338
+2018-09-13 16:56:42 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 16:56:43 INFO  LoggerUtil:35 - Closed browser
+2018-09-13 16:57:05 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 16:57:05 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 16:57:05 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test case[Lorg.testng.ITestNGMethod;@77b14724is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:57:05 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 16:57:05 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 16:57:05 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:57:05 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 16:58:23 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 16:58:23 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 16:58:23 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test caseorg.testng.TestRunneris running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:58:23 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 16:58:23 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 16:58:23 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 16:58:23 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 16:58:28 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 16:58:28 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@23fb172e
+2018-09-13 16:58:30 INFO  LoggerUtil:35 - Clicked on Button for navigate to registration page
+2018-09-13 16:58:30 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@65b3a85a
+2018-09-13 16:58:31 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 16:58:32 INFO  LoggerUtil:35 - Closed browser
+2018-09-13 17:00:09 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 17:00:09 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 17:00:09 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test casedaria_projectis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:00:09 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 17:00:09 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 17:00:09 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:00:09 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 17:00:12 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 17:00:12 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@23fb172e
+2018-09-13 17:00:15 INFO  LoggerUtil:35 - Clicked on Button for navigate to registration page
+2018-09-13 17:00:15 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@65b3a85a
+2018-09-13 17:00:15 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 17:00:16 INFO  LoggerUtil:35 - Closed browser
+2018-09-13 17:14:04 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 17:14:04 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 17:14:04 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test casedaria_projectis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:14:04 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 17:14:04 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 17:14:04 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:14:04 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 17:14:08 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 17:14:08 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@23fb172e
+2018-09-13 17:14:11 INFO  LoggerUtil:35 - Clicked on Button for navigate to registration page
+2018-09-13 17:14:11 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@65b3a85a
+2018-09-13 17:14:11 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 17:14:12 INFO  LoggerUtil:35 - Closed browser
+2018-09-13 17:16:57 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 17:16:57 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 17:16:57 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test case[ResultMap map={}]is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:16:57 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 17:16:57 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 17:16:57 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:16:57 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 17:17:00 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 17:17:00 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@23fb172e
+2018-09-13 17:17:02 INFO  LoggerUtil:35 - Clicked on Button for navigate to registration page
+2018-09-13 17:17:02 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@65b3a85a
+2018-09-13 17:17:03 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 17:17:03 INFO  LoggerUtil:35 - Closed browser
+2018-09-13 17:21:23 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 17:21:23 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 17:21:23 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test case[]is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:21:23 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 17:21:23 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 17:21:23 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:21:23 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 17:21:28 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 17:21:28 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@23fb172e
+2018-09-13 17:21:31 INFO  LoggerUtil:35 - Clicked on Button for navigate to registration page
+2018-09-13 17:21:31 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@65b3a85a
+2018-09-13 17:22:13 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 17:22:13 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 17:22:13 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test caseorg.testng.TestRunner@77b14724is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:22:13 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 17:22:13 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 17:22:13 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:22:13 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 17:22:18 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 17:22:18 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@64ba3208
+2018-09-13 17:22:40 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 17:22:40 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 17:22:40 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test caseorg.testng.TestRunner@77b14724is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:22:40 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 17:22:40 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 17:22:40 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 17:22:40 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 18:12:42 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 18:13:25 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 18:13:47 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test caseorg.testng.TestRunner@41aaedaais running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:13:47 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 18:13:47 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 18:13:47 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:13:47 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 18:13:50 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 18:13:50 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@748fe51d
+2018-09-13 18:14:21 ERROR LoggerUtil:47 - Failed to find clickable element'engine.Locatable@748fe51d':Expected condition failed: waiting for element to be clickable: By.id: topbar-register-button (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-13 18:14:21 ERROR LoggerUtil:47 - Failed to click on 'engine.Locatable@748fe51d': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-13 18:14:21 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@6807a356
+2018-09-13 18:14:51 ERROR LoggerUtil:47 - Failed to find visible webElement'engine.Locatable@6807a356':Expected condition failed: waiting for visibility of element located by By.className: unlogged-form-container (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-13 18:14:51 ERROR LoggerUtil:47 - Can't discover visibility of element 'engine.Locatable@6807a356': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-13 18:14:51 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 18:14:52 INFO  LoggerUtil:35 - Closed browser
+2018-09-13 18:15:15 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 18:17:59 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 18:17:59 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test casedaria_projectis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:17:59 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 18:17:59 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 18:17:59 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:17:59 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 18:18:38 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 18:45:27 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 18:45:27 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 18:45:27 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:45:27 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 18:45:27 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 18:45:27 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test casesingUpFormIsPresentis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:45:27 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 18:45:30 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 18:45:30 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 18:45:32 INFO  LoggerUtil:35 - Clicked on Button for navigate to registration page
+2018-09-13 18:45:32 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@56a4479a
+2018-09-13 18:45:33 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 18:45:34 INFO  LoggerUtil:35 - Closed browser
+2018-09-13 18:46:17 INFO  LoggerUtil:35 - Starting browser: CHROME
+2018-09-13 18:46:17 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 18:46:17 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:46:17 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 18:46:17 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 18:46:17 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test case: singUpFormIsPresentis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:46:17 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 18:46:20 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 18:46:20 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 18:46:29 INFO  LoggerUtil:35 - Clicked on Button for navigate to registration page
+2018-09-13 18:46:29 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@56a4479a
+2018-09-13 18:46:29 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 18:46:30 INFO  LoggerUtil:35 - Closed browser
+2018-09-13 18:55:46 INFO  LoggerUtil:39 - Starting browser: CHROME
+2018-09-13 18:55:46 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 18:55:46 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:55:46 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 18:55:46 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 18:55:46 INFO  LoggerUtil:32 - $$$$$$$$$$$$$$$$$$$$$                 Test case: singUpFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:55:46 INFO  LoggerUtil:34 - ****************************************************************************************
+2018-09-13 18:55:51 INFO  LoggerUtil:39 - Loaded: https://www.deezer.com/en
+2018-09-13 18:55:51 INFO  LoggerUtil:39 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 18:55:54 INFO  LoggerUtil:39 - Clicked on Button for navigate to registration page
+2018-09-13 18:55:54 INFO  LoggerUtil:39 - Waiting for visibility of engine.Locatable@56a4479a
+2018-09-13 18:55:54 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 18:55:55 INFO  LoggerUtil:39 - Closed browser
+2018-09-13 18:55:55 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             END OF RUNNING TEST CASE             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 18:57:35 INFO  LoggerUtil:39 - Starting browser: CHROME
+2018-09-13 18:57:35 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 18:57:35 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:57:35 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 18:57:35 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 18:57:35 INFO  LoggerUtil:32 - $$$$$$$$$$$$$$$$$$$$$                 Test case: singUpFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:57:35 INFO  LoggerUtil:34 - ****************************************************************************************
+2018-09-13 18:57:38 INFO  LoggerUtil:39 - Loaded: https://www.deezer.com/en
+2018-09-13 18:57:38 INFO  LoggerUtil:39 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 18:57:40 INFO  LoggerUtil:39 - Clicked on Button for navigate to registration page
+2018-09-13 18:57:40 INFO  LoggerUtil:39 - Waiting for visibility of engine.Locatable@56a4479a
+2018-09-13 18:57:41 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 18:57:42 INFO  LoggerUtil:39 - Closed browser
+2018-09-13 18:57:42 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             END OF RUNNING TEST CASE             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 18:59:11 INFO  LoggerUtil:39 - Starting browser: CHROME
+2018-09-13 18:59:11 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 18:59:11 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.OffersTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:59:11 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 18:59:11 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 18:59:11 INFO  LoggerUtil:32 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isOffersPropositionIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 18:59:11 INFO  LoggerUtil:34 - ****************************************************************************************
+2018-09-13 18:59:17 INFO  LoggerUtil:39 - Loaded: https://www.deezer.com/en
+2018-09-13 18:59:17 INFO  LoggerUtil:39 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 18:59:19 INFO  LoggerUtil:39 - Clicked on Button for navigating on rates page
+2018-09-13 18:59:19 INFO  LoggerUtil:39 - Waiting for visibility of engine.Locatable@62452cc9
+2018-09-13 18:59:19 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 18:59:20 INFO  LoggerUtil:39 - Closed browser
+2018-09-13 18:59:20 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             END OF RUNNING TEST CASE             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:00:03 INFO  LoggerUtil:39 - Starting browser: CHROME
+2018-09-13 19:00:03 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 19:00:03 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.OffersTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:00:03 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 19:00:03 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 19:00:03 INFO  LoggerUtil:32 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isOffersPropositionIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:00:03 INFO  LoggerUtil:34 - ****************************************************************************************
+2018-09-13 19:00:06 INFO  LoggerUtil:39 - Loaded: https://www.deezer.com/en
+2018-09-13 19:00:06 INFO  LoggerUtil:39 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 19:00:08 INFO  LoggerUtil:39 - Clicked on Button for navigating on rates page
+2018-09-13 19:00:08 INFO  LoggerUtil:39 - Waiting for visibility of engine.Locatable@62452cc9
+2018-09-13 19:00:08 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:00:08 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             END OF RUNNING TEST CASE             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:00:09 INFO  LoggerUtil:39 - Closed browser
+2018-09-13 19:01:20 INFO  LoggerUtil:38 - Starting browser: CHROME
+2018-09-13 19:01:20 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 19:01:20 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.OffersTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:01:20 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 19:01:20 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:01:20 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isOffersPropositionIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:01:20 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:01:23 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:01:23 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 19:01:30 INFO  LoggerUtil:38 - Clicked on Button for navigating on rates page
+2018-09-13 19:01:30 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@56a4479a
+2018-09-13 19:01:31 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:01:32 INFO  LoggerUtil:38 - Closed browser
+2018-09-13 19:01:32 INFO  LoggerUtil:19 - XXXXXXXXXXXXXXXXXXXXXXX             END OF RUNNING TEST CASE             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:09:02 INFO  LoggerUtil:38 - Starting browser: CHROME
+2018-09-13 19:09:02 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 19:09:02 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.OffersTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:09:02 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 19:09:02 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:09:02 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isOffersPropositionIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:09:02 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:09:07 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:09:07 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 19:09:08 INFO  LoggerUtil:38 - Clicked on Button for navigating on rates page
+2018-09-13 19:09:08 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@62452cc9
+2018-09-13 19:09:09 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:09:10 INFO  LoggerUtil:38 - Closed browser
+2018-09-13 19:09:10 INFO  LoggerUtil:19 - XXXXXXXXXXXXXXXXXXXXXXX     END OF RUNNING TEST CASE          XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:12:59 INFO  LoggerUtil:38 - Starting browser: CHROME
+2018-09-13 19:12:59 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 19:12:59 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:12:59 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 19:12:59 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:12:59 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: loginFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:12:59 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:13:02 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:13:02 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 19:13:04 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:13:04 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@56a4479a
+2018-09-13 19:13:04 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:13:04 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: singUpFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:13:04 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:13:05 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:13:05 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@7a527389
+2018-09-13 19:13:07 INFO  LoggerUtil:38 - Clicked on Button for navigate to registration page
+2018-09-13 19:13:07 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@70dd7e15
+2018-09-13 19:13:07 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:13:07 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isPasswordResetDialogWindowIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:13:07 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:13:08 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:13:08 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@2baa8d82
+2018-09-13 19:13:09 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:13:09 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@3676ac27
+2018-09-13 19:13:09 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-13 19:13:09 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@3ad394e6
+2018-09-13 19:13:10 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:13:10 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: checkEmailIsEqualToEnteredWhileReset is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:13:10 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:13:11 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:13:11 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@350b3a17
+2018-09-13 19:13:12 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:13:12 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@4ad4936c
+2018-09-13 19:13:12 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-13 19:13:12 INFO  LoggerUtil:38 - Waiting for elementengine.Locatable@736ac09a
+2018-09-13 19:13:13 INFO  LoggerUtil:38 - Created 'Field for email in Reset container'
+2018-09-13 19:13:13 INFO  LoggerUtil:38 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-13 19:13:13 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@57b9e423
+2018-09-13 19:13:13 INFO  LoggerUtil:38 - Clicked on Submit reset button
+2018-09-13 19:13:13 INFO  LoggerUtil:38 - Waiting for elementengine.Locatable@87abc48
+2018-09-13 19:13:13 INFO  LoggerUtil:38 - Got 'mrs.tester.tested@gmail.com' from 'Email user on which confirm letter was sent'
+2018-09-13 19:13:13 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:13:13 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isResetMessageIsCorrect is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:13:13 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:13:14 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:13:14 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@7e9da981
+2018-09-13 19:13:15 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:13:15 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@6df3e44c
+2018-09-13 19:13:15 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-13 19:13:15 INFO  LoggerUtil:38 - Waiting for elementengine.Locatable@7c6189d5
+2018-09-13 19:13:16 INFO  LoggerUtil:38 - Created 'Field for email in Reset container'
+2018-09-13 19:13:16 INFO  LoggerUtil:38 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-13 19:13:16 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@7afb1741
+2018-09-13 19:13:16 INFO  LoggerUtil:38 - Clicked on Submit reset button
+2018-09-13 19:13:16 INFO  LoggerUtil:38 - Waiting for elementengine.Locatable@1b4ae4e0
+2018-09-13 19:13:16 INFO  LoggerUtil:38 - Got 'You've got mail!' from 'Reset email confirmation message'
+2018-09-13 19:13:16 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:13:17 INFO  LoggerUtil:38 - Closed browser
+2018-09-13 19:13:17 INFO  LoggerUtil:19 - XXXXXXXXXXXXXXXXXXXXXXX     END OF RUNNING TEST CASE          XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:15:37 INFO  LoggerUtil:38 - Starting browser: CHROME
+2018-09-13 19:15:37 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 19:15:37 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:15:37 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 19:15:37 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:15:37 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: loginFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:15:37 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:15:40 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:15:40 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@35a9782c
+2018-09-13 19:15:42 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:15:42 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@56a4479a
+2018-09-13 19:15:42 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:15:42 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: singUpFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:15:42 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:15:43 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:15:43 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@7a527389
+2018-09-13 19:15:45 INFO  LoggerUtil:38 - Clicked on Button for navigate to registration page
+2018-09-13 19:15:45 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@70dd7e15
+2018-09-13 19:15:45 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:15:45 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isPasswordResetDialogWindowIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:15:45 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:15:46 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:15:46 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@2baa8d82
+2018-09-13 19:15:47 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:15:47 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@3676ac27
+2018-09-13 19:15:47 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-13 19:15:47 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@3ad394e6
+2018-09-13 19:15:47 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:15:47 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: checkEmailIsEqualToEnteredWhileReset is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:15:47 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:15:48 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:15:48 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@4c432866
+2018-09-13 19:15:49 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:15:49 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@d4602a
+2018-09-13 19:15:49 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-13 19:15:49 INFO  LoggerUtil:38 - Waiting for elementengine.Locatable@291120f4
+2018-09-13 19:15:50 INFO  LoggerUtil:38 - Created 'Field for email in Reset container'
+2018-09-13 19:15:50 INFO  LoggerUtil:38 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-13 19:15:50 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@72ed9aad
+2018-09-13 19:15:50 INFO  LoggerUtil:38 - Clicked on Submit reset button
+2018-09-13 19:15:50 INFO  LoggerUtil:38 - Waiting for elementengine.Locatable@29fc1a2b
+2018-09-13 19:15:50 INFO  LoggerUtil:38 - Got 'mrs.tester.tested@gmail.com' from 'Email user on which confirm letter was sent'
+2018-09-13 19:15:50 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:15:50 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isResetMessageIsCorrect is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:15:50 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:15:51 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:15:51 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@70e02081
+2018-09-13 19:15:52 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:15:52 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@748e9b20
+2018-09-13 19:15:52 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-13 19:15:52 INFO  LoggerUtil:38 - Waiting for elementengine.Locatable@29528a22
+2018-09-13 19:15:53 INFO  LoggerUtil:38 - Created 'Field for email in Reset container'
+2018-09-13 19:15:53 INFO  LoggerUtil:38 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-13 19:15:53 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@75308740
+2018-09-13 19:15:53 INFO  LoggerUtil:38 - Clicked on Submit reset button
+2018-09-13 19:15:53 INFO  LoggerUtil:38 - Waiting for elementengine.Locatable@3fbcfe81
+2018-09-13 19:15:53 INFO  LoggerUtil:38 - Got 'You've got mail!' from 'Reset email confirmation message'
+2018-09-13 19:15:53 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:15:54 INFO  LoggerUtil:38 - Closed browser
+2018-09-13 19:15:54 INFO  LoggerUtil:19 - XXXXXXXXXXXXXXXXXXXXXXX     END OF RUNNING TEST CASE          XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:18:41 INFO  LoggerUtil:38 - Starting browser: CHROME
+2018-09-13 19:18:41 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 19:18:41 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:18:41 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 19:18:41 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:18:41 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: loginFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:18:41 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:18:43 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:18:43 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@732f29af
+2018-09-13 19:18:45 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:18:45 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@5bc9ba1d
+2018-09-13 19:18:45 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:18:45 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: singUpFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:18:45 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:18:46 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:18:46 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@5b40ceb
+2018-09-13 19:18:47 INFO  LoggerUtil:38 - Clicked on Button for navigate to registration page
+2018-09-13 19:18:47 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@6d0b5baf
+2018-09-13 19:18:48 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:18:48 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isPasswordResetDialogWindowIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:18:48 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:18:48 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:18:48 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@6f80fafe
+2018-09-13 19:18:50 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:18:50 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@245a26e1
+2018-09-13 19:18:50 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-13 19:18:50 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@29539e36
+2018-09-13 19:18:51 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:18:51 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: checkEmailIsEqualToEnteredWhileReset is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:18:51 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:18:52 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:18:52 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@39fc6b2c
+2018-09-13 19:18:52 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:18:52 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@1bdbf9be
+2018-09-13 19:18:52 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-13 19:18:52 INFO  LoggerUtil:38 - Waiting for elementengine.Locatable@412c995d
+2018-09-13 19:18:53 INFO  LoggerUtil:38 - Created 'Field for email in Reset container'
+2018-09-13 19:18:53 INFO  LoggerUtil:38 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-13 19:18:53 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@6e6fce47
+2018-09-13 19:18:53 INFO  LoggerUtil:38 - Clicked on Submit reset button
+2018-09-13 19:18:53 INFO  LoggerUtil:38 - Waiting for elementengine.Locatable@4bee18dc
+2018-09-13 19:18:53 INFO  LoggerUtil:38 - Got 'mrs.tester.tested@gmail.com' from 'Email user on which confirm letter was sent'
+2018-09-13 19:18:53 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-13 19:18:53 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isResetMessageIsCorrect is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:18:53 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-13 19:18:54 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:18:54 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@25a73de1
+2018-09-13 19:18:55 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-13 19:18:55 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@540dbda9
+2018-09-13 19:18:55 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-13 19:18:55 INFO  LoggerUtil:38 - Waiting for elementengine.Locatable@4eb30d44
+2018-09-13 19:19:25 ERROR LoggerUtil:50 - Can`t discover the element:engine.Locatable@4eb30d44Expected condition failed: waiting for visibility of element located by By.id: reset_mail (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-13 19:19:25 ERROR LoggerUtil:50 - Failed to fill engine.Locatable@4eb30d44 with textmrs.tester.tested@gmail.com: Expected condition failed: waiting for visibility of element located by By.id: reset_mail (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-13 19:19:26 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:19:27 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-13 19:19:27 INFO  LoggerUtil:38 - Waiting for clickable elementengine.Locatable@26837057
+2018-09-13 19:19:28 INFO  LoggerUtil:38 - Clicked on Button for navigate to registration page
+2018-09-13 19:19:28 INFO  LoggerUtil:38 - Waiting for visibility of engine.Locatable@52226e57
+2018-09-13 19:19:29 INFO  LoggerUtil:38 - Closed browser
+2018-09-13 19:19:29 INFO  LoggerUtil:19 - XXXXXXXXXXXXXXXXXXXXXXX     END OF RUNNING TEST CASE          XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:21:28 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 19:21:28 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test caseorg.testng.TestRunner@3af356fis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:21:28 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 19:21:28 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-13 19:21:28 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:21:28 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-13 19:21:28 INFO  LoggerUtil:26 - ****************************************************************************************
+2018-09-13 19:21:28 INFO  LoggerUtil:28 - $$$$$$$$$$$$$$$$$$$$$                 Test case: singUpFormIsPresentis running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-13 19:21:28 INFO  LoggerUtil:30 - ****************************************************************************************
+2018-09-13 19:21:31 INFO  LoggerUtil:35 - Loaded: https://www.deezer.com/en
+2018-09-13 19:21:31 INFO  LoggerUtil:35 - Waiting for clickable elementengine.Locatable@22d1886d
+2018-09-13 19:21:38 INFO  LoggerUtil:35 - Clicked on Button for navigate to registration page
+2018-09-13 19:21:38 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@35636217
+2018-09-13 19:21:39 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-13 19:21:40 INFO  LoggerUtil:35 - Closed browser

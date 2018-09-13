@@ -56,7 +56,7 @@ public final class Wait {
                     .until(ExpectedConditions.visibilityOfElementLocated(locatable.getBy()));
         }
         catch (WebDriverException e){
-            LoggerUtil.error("Failed to find visible webElement" + "'" + locatable + "'" +":"+ e.getMessage());
+            LoggerUtil.error("Failed to find visible webElement" + "'" + locatable+ "'" +":"+ e.getMessage());
             throw new WebDriverException();
         }
     }

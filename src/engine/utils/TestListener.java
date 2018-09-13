@@ -5,6 +5,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import java.sql.SQLOutput;
+
 import static engine.Driver.timestamp;
 
 public class TestListener implements ITestListener {
@@ -19,7 +21,7 @@ public class TestListener implements ITestListener {
         }
     }
     public void onTestStart(ITestResult result) {
-
+        LoggerUtil.startTestCase("Test case: "+result.getName()+" is running...");
     }
     public void onTestSuccess(ITestResult result) {
 
@@ -34,6 +36,7 @@ public class TestListener implements ITestListener {
 
     }
     public void onFinish(ITestContext context) {
+
 
     }
 

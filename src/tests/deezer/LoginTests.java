@@ -3,6 +3,7 @@ package tests.deezer;
 import engine.domain.Navigate;
 import engine.domain.pageObjects.deezer.LoginPage;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import tests.UiTestRunner;
@@ -12,7 +13,7 @@ public class LoginTests extends UiTestRunner {
     public static String userPassword = "P@ssw0rd";
     public static String userInvalidPassword = "fake";
 
-    @Test
+    @Test(priority = 0)
     public final void loginFormIsPresent() {
         boolean isLoginFormPresent = Navigate
                 .navigateToDeezerApp()
@@ -20,8 +21,10 @@ public class LoginTests extends UiTestRunner {
                 .isLoginFormIsPresent();
         Assert.assertTrue(isLoginFormPresent, "Login form should be visible on page");
     }
+    @AfterTest
 
-    @Test
+
+    @Test(priority = 1)
     public final void singUpFormIsPresent() {
         boolean isSingUpFormIsPresent = Navigate
                 .navigateToDeezerApp()
@@ -30,7 +33,7 @@ public class LoginTests extends UiTestRunner {
         Assert.assertEquals(isSingUpFormIsPresent, true, "Sing up form should be visible on the page");
     }
 
-    @Test
+    @Test(priority = 2)
     public final void isPasswordResetDialogWindowIsPresent() {
         boolean isPasswordResetDialogWindowIsPresent = Navigate
                 .navigateToDeezerApp()
@@ -41,7 +44,7 @@ public class LoginTests extends UiTestRunner {
                 "visible on page");
     }
 
-    @Test
+    @Test(priority = 3)
     public final void checkEmailIsEqualToEnteredWhileReset() {
         String receivedEmail = Navigate
                 .navigateToDeezerApp()
@@ -52,7 +55,7 @@ public class LoginTests extends UiTestRunner {
                 "Received email should be equal to entered email in reset password process");
     }
 
-    @Test
+    @Test(priority = 4)
     public final void isResetMessageIsCorrect() {
         String expectedResetConfirmationMessage = "You've got mail!";
 
