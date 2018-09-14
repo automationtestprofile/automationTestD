@@ -966,3 +966,316 @@ Driver info: driver.version: Driver
 2018-09-13 19:21:38 INFO  LoggerUtil:35 - Waiting for visibility of engine.Locatable@35636217
 2018-09-13 19:21:39 INFO  LoggerUtil:21 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
 2018-09-13 19:21:40 INFO  LoggerUtil:35 - Closed browser
+2018-09-14 19:28:04 INFO  LoggerUtil:38 - Starting browser: CHROME
+2018-09-14 19:28:04 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-14 19:28:04 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:28:04 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-14 19:28:04 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:28:04 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: loginFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:28:04 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:28:07 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:28:07 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:28:09 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:28:09 INFO  LoggerUtil:38 - Waiting for visibility of Form for login
+2018-09-14 19:28:09 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:28:09 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: singUpFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:28:09 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:28:09 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:28:09 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to registration page
+2018-09-14 19:28:11 INFO  LoggerUtil:38 - Clicked on Button for navigate to registration page
+2018-09-14 19:28:11 INFO  LoggerUtil:38 - Waiting for visibility of Sing up container
+2018-09-14 19:28:11 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:28:11 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isPasswordResetDialogWindowIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:28:11 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:28:12 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:28:12 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:28:13 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:28:13 INFO  LoggerUtil:38 - Waiting for clickable elementLink to form for recovering password
+2018-09-14 19:28:13 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-14 19:28:13 INFO  LoggerUtil:38 - Waiting for visibility of Container for reset password via sending new password on user Mail
+2018-09-14 19:28:14 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:28:14 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: checkEmailIsEqualToEnteredWhileReset is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:28:14 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:28:15 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:28:15 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:28:15 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:28:15 INFO  LoggerUtil:38 - Waiting for clickable elementLink to form for recovering password
+2018-09-14 19:28:16 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-14 19:28:16 INFO  LoggerUtil:38 - Waiting for elementField for email in Reset container
+2018-09-14 19:28:16 INFO  LoggerUtil:38 - Created 'Field for email in Reset container'
+2018-09-14 19:28:16 INFO  LoggerUtil:38 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-14 19:28:16 INFO  LoggerUtil:38 - Waiting for clickable elementSubmit reset button
+2018-09-14 19:28:16 INFO  LoggerUtil:38 - Clicked on Submit reset button
+2018-09-14 19:28:16 INFO  LoggerUtil:38 - Waiting for elementEmail user on which confirm letter was sent
+2018-09-14 19:28:16 INFO  LoggerUtil:38 - Got 'mrs.tester.tested@gmail.com' from 'Email user on which confirm letter was sent'
+2018-09-14 19:28:16 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:28:16 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isResetMessageIsCorrect is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:28:16 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:28:17 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:28:17 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:28:18 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:28:18 INFO  LoggerUtil:38 - Waiting for clickable elementLink to form for recovering password
+2018-09-14 19:28:18 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-14 19:28:18 INFO  LoggerUtil:38 - Waiting for elementField for email in Reset container
+2018-09-14 19:28:49 ERROR LoggerUtil:50 - Can`t discover the element:engine.Locatable@a146b11Expected condition failed: waiting for visibility of element located by By.id: reset_mail (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-14 19:28:49 ERROR LoggerUtil:50 - Failed to fill engine.Locatable@a146b11 with textmrs.tester.tested@gmail.com: Expected condition failed: waiting for visibility of element located by By.id: reset_mail (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-14 19:28:49 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:28:49 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isLoginIsFailed is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:28:49 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:28:50 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:28:50 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:28:52 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:28:52 INFO  LoggerUtil:38 - Waiting for elementEmail field on Login Page
+2018-09-14 19:28:52 INFO  LoggerUtil:38 - Created 'Email field on Login Page'
+2018-09-14 19:28:52 INFO  LoggerUtil:38 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-14 19:28:52 INFO  LoggerUtil:38 - Waiting for elementPassword field on Login Page
+2018-09-14 19:28:52 INFO  LoggerUtil:38 - Created 'Password field on Login Page'
+2018-09-14 19:28:52 INFO  LoggerUtil:38 - Filled 'Password field on Login Page' with text fake
+2018-09-14 19:28:52 INFO  LoggerUtil:38 - Waiting for clickable elementLogin button
+2018-09-14 19:28:52 INFO  LoggerUtil:38 - Clicked on Login button
+2018-09-14 19:28:52 INFO  LoggerUtil:38 - Waiting for elementMessage about invalid data enter to Login form
+2018-09-14 19:28:52 INFO  LoggerUtil:38 - Got 'Your details are incorrect. Please try again.' from 'Message about invalid data enter to Login form'
+2018-09-14 19:28:52 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:28:52 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isLoginIsSuccess is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:28:52 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:28:53 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:28:53 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:28:54 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:28:54 INFO  LoggerUtil:38 - Waiting for elementEmail field on Login Page
+2018-09-14 19:28:54 INFO  LoggerUtil:38 - Created 'Email field on Login Page'
+2018-09-14 19:28:55 INFO  LoggerUtil:38 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-14 19:28:55 INFO  LoggerUtil:38 - Waiting for elementPassword field on Login Page
+2018-09-14 19:28:55 INFO  LoggerUtil:38 - Created 'Password field on Login Page'
+2018-09-14 19:28:55 INFO  LoggerUtil:38 - Filled 'Password field on Login Page' with text P@ssw0rd
+2018-09-14 19:28:55 INFO  LoggerUtil:38 - Waiting for clickable elementLogin button
+2018-09-14 19:28:57 INFO  LoggerUtil:38 - Clicked on Login button
+2018-09-14 19:28:57 INFO  LoggerUtil:38 - Waiting for visibility of Player on main page
+2018-09-14 19:28:59 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-14 19:29:00 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:29:00 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to registration page
+2018-09-14 19:29:31 ERROR LoggerUtil:50 - Failed to find clickable element'engine.Locatable@48d5ca17':Expected condition failed: waiting for element to be clickable: By.id: topbar-register-button (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-14 19:29:31 ERROR LoggerUtil:50 - Failed to click on 'engine.Locatable@48d5ca17': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-14 19:29:31 INFO  LoggerUtil:38 - Waiting for visibility of Sing up container
+2018-09-14 19:30:01 ERROR LoggerUtil:50 - Failed to find visible webElement'Sing up container':Expected condition failed: waiting for visibility of element located by By.className: unlogged-form-container (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-14 19:30:01 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@4e26040f': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-14 19:36:58 INFO  LoggerUtil:38 - Starting browser: CHROME
+2018-09-14 19:36:58 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-14 19:36:58 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:36:58 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-14 19:36:58 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:36:58 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isResetMessageIsCorrect is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:36:58 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:37:01 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:37:01 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:37:02 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:37:02 INFO  LoggerUtil:38 - Waiting for clickable elementLink to form for recovering password
+2018-09-14 19:37:03 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-14 19:37:03 INFO  LoggerUtil:38 - Waiting for elementField for email in Reset container
+2018-09-14 19:37:03 INFO  LoggerUtil:38 - Created 'Field for email in Reset container'
+2018-09-14 19:37:03 INFO  LoggerUtil:38 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-14 19:37:03 INFO  LoggerUtil:38 - Waiting for clickable elementSubmit reset button
+2018-09-14 19:37:04 INFO  LoggerUtil:38 - Clicked on Submit reset button
+2018-09-14 19:37:04 INFO  LoggerUtil:38 - Waiting for elementReset email confirmation message
+2018-09-14 19:37:04 INFO  LoggerUtil:38 - Got 'You've got mail!' from 'Reset email confirmation message'
+2018-09-14 19:37:04 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-14 19:37:04 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:37:04 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to registration page
+2018-09-14 19:37:06 INFO  LoggerUtil:38 - Clicked on Button for navigate to registration page
+2018-09-14 19:37:06 INFO  LoggerUtil:38 - Waiting for visibility of Sing up container
+2018-09-14 19:37:07 INFO  LoggerUtil:38 - Closed browser
+2018-09-14 19:37:07 INFO  LoggerUtil:19 - XXXXXXXXXXXXXXXXXXXXXXX     END OF RUNNING TEST CASE          XXXXXXXXXXXXXXXXXXXXXX
+2018-09-14 19:37:25 INFO  LoggerUtil:38 - Starting browser: CHROME
+2018-09-14 19:37:25 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-14 19:37:25 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:37:25 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-14 19:37:25 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:37:25 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: loginFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:37:25 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:37:28 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:37:28 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:37:29 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:37:29 INFO  LoggerUtil:38 - Waiting for visibility of Form for login
+2018-09-14 19:37:30 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:37:30 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: singUpFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:37:30 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:37:30 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:37:30 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to registration page
+2018-09-14 19:37:32 INFO  LoggerUtil:38 - Clicked on Button for navigate to registration page
+2018-09-14 19:37:32 INFO  LoggerUtil:38 - Waiting for visibility of Sing up container
+2018-09-14 19:37:32 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:37:32 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isPasswordResetDialogWindowIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:37:32 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:37:33 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:37:33 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:37:34 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:37:34 INFO  LoggerUtil:38 - Waiting for clickable elementLink to form for recovering password
+2018-09-14 19:37:34 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-14 19:37:34 INFO  LoggerUtil:38 - Waiting for visibility of Container for reset password via sending new password on user Mail
+2018-09-14 19:37:35 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:37:35 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: checkEmailIsEqualToEnteredWhileReset is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:37:35 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:37:35 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:37:35 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:37:37 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:37:37 INFO  LoggerUtil:38 - Waiting for clickable elementLink to form for recovering password
+2018-09-14 19:37:37 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-14 19:37:37 INFO  LoggerUtil:38 - Waiting for elementField for email in Reset container
+2018-09-14 19:37:38 INFO  LoggerUtil:38 - Created 'Field for email in Reset container'
+2018-09-14 19:37:38 INFO  LoggerUtil:38 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-14 19:37:38 INFO  LoggerUtil:38 - Waiting for clickable elementSubmit reset button
+2018-09-14 19:37:38 INFO  LoggerUtil:38 - Clicked on Submit reset button
+2018-09-14 19:37:38 INFO  LoggerUtil:38 - Waiting for elementEmail user on which confirm letter was sent
+2018-09-14 19:37:38 INFO  LoggerUtil:38 - Got 'mrs.tester.tested@gmail.com' from 'Email user on which confirm letter was sent'
+2018-09-14 19:37:38 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:37:38 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isResetMessageIsCorrect is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:37:38 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:37:39 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:37:39 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:37:40 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:37:40 INFO  LoggerUtil:38 - Waiting for clickable elementLink to form for recovering password
+2018-09-14 19:37:40 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-14 19:37:40 INFO  LoggerUtil:38 - Waiting for elementField for email in Reset container
+2018-09-14 19:37:40 INFO  LoggerUtil:38 - Created 'Field for email in Reset container'
+2018-09-14 19:37:40 INFO  LoggerUtil:38 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-14 19:37:40 INFO  LoggerUtil:38 - Waiting for clickable elementSubmit reset button
+2018-09-14 19:37:41 INFO  LoggerUtil:38 - Clicked on Submit reset button
+2018-09-14 19:37:41 INFO  LoggerUtil:38 - Waiting for elementReset email confirmation message
+2018-09-14 19:37:41 INFO  LoggerUtil:38 - Got 'You've got mail!' from 'Reset email confirmation message'
+2018-09-14 19:37:41 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:37:41 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isLoginIsFailed is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:37:41 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:37:42 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:37:42 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:37:42 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:37:42 INFO  LoggerUtil:38 - Waiting for elementEmail field on Login Page
+2018-09-14 19:37:42 INFO  LoggerUtil:38 - Created 'Email field on Login Page'
+2018-09-14 19:37:43 INFO  LoggerUtil:38 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-14 19:37:43 INFO  LoggerUtil:38 - Waiting for elementPassword field on Login Page
+2018-09-14 19:37:43 INFO  LoggerUtil:38 - Created 'Password field on Login Page'
+2018-09-14 19:37:43 INFO  LoggerUtil:38 - Filled 'Password field on Login Page' with text fake
+2018-09-14 19:37:43 INFO  LoggerUtil:38 - Waiting for clickable elementLogin button
+2018-09-14 19:37:43 INFO  LoggerUtil:38 - Clicked on Login button
+2018-09-14 19:37:43 INFO  LoggerUtil:38 - Waiting for elementMessage about invalid data enter to Login form
+2018-09-14 19:37:43 INFO  LoggerUtil:38 - Got 'Your details are incorrect. Please try again.' from 'Message about invalid data enter to Login form'
+2018-09-14 19:37:43 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:37:43 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isLoginIsSuccess is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:37:43 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:37:44 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:37:44 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:37:45 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:37:45 INFO  LoggerUtil:38 - Waiting for elementEmail field on Login Page
+2018-09-14 19:37:45 INFO  LoggerUtil:38 - Created 'Email field on Login Page'
+2018-09-14 19:37:45 INFO  LoggerUtil:38 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-14 19:37:45 INFO  LoggerUtil:38 - Waiting for elementPassword field on Login Page
+2018-09-14 19:37:45 INFO  LoggerUtil:38 - Created 'Password field on Login Page'
+2018-09-14 19:37:45 INFO  LoggerUtil:38 - Filled 'Password field on Login Page' with text P@ssw0rd
+2018-09-14 19:37:45 INFO  LoggerUtil:38 - Waiting for clickable elementLogin button
+2018-09-14 19:37:47 INFO  LoggerUtil:38 - Clicked on Login button
+2018-09-14 19:37:47 INFO  LoggerUtil:38 - Waiting for visibility of Player on main page
+2018-09-14 19:37:49 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-14 19:37:51 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:37:51 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to registration page
+2018-09-14 19:38:21 ERROR LoggerUtil:50 - Failed to find clickable element'engine.Locatable@1ab53860':Expected condition failed: waiting for element to be clickable: By.id: topbar-register-button (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-14 19:38:21 ERROR LoggerUtil:50 - Failed to click on 'engine.Locatable@1ab53860': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-14 19:38:21 INFO  LoggerUtil:38 - Waiting for visibility of Sing up container
+2018-09-14 19:38:51 ERROR LoggerUtil:50 - Failed to find visible webElement'Sing up container':Expected condition failed: waiting for visibility of element located by By.className: unlogged-form-container (tried for 30 second(s) with 500 milliseconds interval)
+2018-09-14 19:38:51 ERROR LoggerUtil:50 - Can't discover visibility of element 'engine.Locatable@591e5fd4': Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-NLJHJMP', ip: '192.168.0.232', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: Driver
+2018-09-14 19:39:31 INFO  LoggerUtil:38 - Starting browser: CHROME
+2018-09-14 19:39:31 INFO  LoggerUtil:11 - ****************************************************************************************
+2018-09-14 19:39:31 INFO  LoggerUtil:13 - $$$$$$$$$$$$$$$$$$$$$                 Test suite: tests.deezer.LoginTests is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:39:31 INFO  LoggerUtil:15 - ****************************************************************************************
+2018-09-14 19:39:31 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:39:31 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: loginFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:39:31 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:39:33 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:39:33 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:39:35 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:39:35 INFO  LoggerUtil:38 - Waiting for visibility of Form for login
+2018-09-14 19:39:35 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:39:35 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: singUpFormIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:39:35 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:39:36 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:39:36 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to registration page
+2018-09-14 19:39:38 INFO  LoggerUtil:38 - Clicked on Button for navigate to registration page
+2018-09-14 19:39:38 INFO  LoggerUtil:38 - Waiting for visibility of Sing up container
+2018-09-14 19:39:38 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:39:38 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isPasswordResetDialogWindowIsPresent is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:39:38 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:39:38 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:39:38 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:39:40 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:39:40 INFO  LoggerUtil:38 - Waiting for clickable elementLink to form for recovering password
+2018-09-14 19:39:40 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-14 19:39:40 INFO  LoggerUtil:38 - Waiting for visibility of Container for reset password via sending new password on user Mail
+2018-09-14 19:39:40 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:39:40 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: checkEmailIsEqualToEnteredWhileReset is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:39:40 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:39:41 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:39:41 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:39:42 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:39:42 INFO  LoggerUtil:38 - Waiting for clickable elementLink to form for recovering password
+2018-09-14 19:39:42 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-14 19:39:42 INFO  LoggerUtil:38 - Waiting for elementField for email in Reset container
+2018-09-14 19:39:43 INFO  LoggerUtil:38 - Created 'Field for email in Reset container'
+2018-09-14 19:39:43 INFO  LoggerUtil:38 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-14 19:39:43 INFO  LoggerUtil:38 - Waiting for clickable elementSubmit reset button
+2018-09-14 19:39:43 INFO  LoggerUtil:38 - Clicked on Submit reset button
+2018-09-14 19:39:43 INFO  LoggerUtil:38 - Waiting for elementEmail user on which confirm letter was sent
+2018-09-14 19:39:43 INFO  LoggerUtil:38 - Got 'mrs.tester.tested@gmail.com' from 'Email user on which confirm letter was sent'
+2018-09-14 19:39:43 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:39:43 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isResetMessageIsCorrect is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:39:43 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:39:44 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:39:44 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:39:45 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:39:45 INFO  LoggerUtil:38 - Waiting for clickable elementLink to form for recovering password
+2018-09-14 19:39:46 INFO  LoggerUtil:38 - Clicked on Link to form for recovering password
+2018-09-14 19:39:46 INFO  LoggerUtil:38 - Waiting for elementField for email in Reset container
+2018-09-14 19:39:46 INFO  LoggerUtil:38 - Created 'Field for email in Reset container'
+2018-09-14 19:39:46 INFO  LoggerUtil:38 - Filled 'Field for email in Reset container' with text mrs.tester.tested@gmail.com
+2018-09-14 19:39:46 INFO  LoggerUtil:38 - Waiting for clickable elementSubmit reset button
+2018-09-14 19:39:46 INFO  LoggerUtil:38 - Clicked on Submit reset button
+2018-09-14 19:39:46 INFO  LoggerUtil:38 - Waiting for elementReset email confirmation message
+2018-09-14 19:39:46 INFO  LoggerUtil:38 - Got 'You've got mail!' from 'Reset email confirmation message'
+2018-09-14 19:39:46 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:39:46 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isLoginIsFailed is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:39:46 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:39:47 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:39:47 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:39:48 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:39:48 INFO  LoggerUtil:38 - Waiting for elementEmail field on Login Page
+2018-09-14 19:39:48 INFO  LoggerUtil:38 - Created 'Email field on Login Page'
+2018-09-14 19:39:49 INFO  LoggerUtil:38 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-14 19:39:49 INFO  LoggerUtil:38 - Waiting for elementPassword field on Login Page
+2018-09-14 19:39:49 INFO  LoggerUtil:38 - Created 'Password field on Login Page'
+2018-09-14 19:39:49 INFO  LoggerUtil:38 - Filled 'Password field on Login Page' with text fake
+2018-09-14 19:39:49 INFO  LoggerUtil:38 - Waiting for clickable elementLogin button
+2018-09-14 19:39:49 INFO  LoggerUtil:38 - Clicked on Login button
+2018-09-14 19:39:49 INFO  LoggerUtil:38 - Waiting for elementMessage about invalid data enter to Login form
+2018-09-14 19:39:49 INFO  LoggerUtil:38 - Got 'Your details are incorrect. Please try again.' from 'Message about invalid data enter to Login form'
+2018-09-14 19:39:49 INFO  LoggerUtil:29 - ****************************************************************************************
+2018-09-14 19:39:49 INFO  LoggerUtil:31 - $$$$$$$$$$$$$$$$$$$$$                 Test case: isLoginIsSuccess is running...       $$$$$$$$$$$$$$$$$$$$$$$$$
+2018-09-14 19:39:49 INFO  LoggerUtil:33 - ****************************************************************************************
+2018-09-14 19:39:50 INFO  LoggerUtil:38 - Loaded: https://www.deezer.com/en
+2018-09-14 19:39:50 INFO  LoggerUtil:38 - Waiting for clickable elementButton for navigate to login page
+2018-09-14 19:39:51 INFO  LoggerUtil:38 - Clicked on Button for navigate to login page
+2018-09-14 19:39:51 INFO  LoggerUtil:38 - Waiting for elementEmail field on Login Page
+2018-09-14 19:39:51 INFO  LoggerUtil:38 - Created 'Email field on Login Page'
+2018-09-14 19:39:51 INFO  LoggerUtil:38 - Filled 'Email field on Login Page' with text mrs.tester.tested@gmail.com
+2018-09-14 19:39:51 INFO  LoggerUtil:38 - Waiting for elementPassword field on Login Page
+2018-09-14 19:39:51 INFO  LoggerUtil:38 - Created 'Password field on Login Page'
+2018-09-14 19:39:51 INFO  LoggerUtil:38 - Filled 'Password field on Login Page' with text P@ssw0rd
+2018-09-14 19:39:51 INFO  LoggerUtil:38 - Waiting for clickable elementLogin button
+2018-09-14 19:39:54 INFO  LoggerUtil:38 - Clicked on Login button
+2018-09-14 19:39:54 INFO  LoggerUtil:38 - Waiting for visibility of Player on main page
+2018-09-14 19:39:55 INFO  LoggerUtil:25 - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+2018-09-14 19:39:56 INFO  LoggerUtil:38 - Closed browser
+2018-09-14 19:39:56 INFO  LoggerUtil:19 - XXXXXXXXXXXXXXXXXXXXXXX     END OF RUNNING TEST CASE          XXXXXXXXXXXXXXXXXXXXXX

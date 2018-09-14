@@ -9,9 +9,9 @@ import org.testng.asserts.SoftAssert;
 import tests.UiTestRunner;
 
 public class LoginTests extends UiTestRunner {
-    public static String userEmail = "mrs.tester.tested@gmail.com";
-    public static String userPassword = "P@ssw0rd";
-    public static String userInvalidPassword = "fake";
+    private static String userEmail = "mrs.tester.tested@gmail.com";
+    private static String userPassword = "P@ssw0rd";
+    private static String userInvalidPassword = "fake";
 
     @Test(priority = 0)
     public final void loginFormIsPresent() {
@@ -21,7 +21,7 @@ public class LoginTests extends UiTestRunner {
                 .isLoginFormIsPresent();
         Assert.assertTrue(isLoginFormPresent, "Login form should be visible on page");
     }
-    @AfterTest
+
 
 
     @Test(priority = 1)
@@ -30,7 +30,7 @@ public class LoginTests extends UiTestRunner {
                 .navigateToDeezerApp()
                 .navigateToSignUp()
                 .isSingUpFormIsPresent();
-        Assert.assertEquals(isSingUpFormIsPresent, true, "Sing up form should be visible on the page");
+        Assert.assertTrue(isSingUpFormIsPresent,"Sing up form should be visible on the page");
     }
 
     @Test(priority = 2)
@@ -67,7 +67,7 @@ public class LoginTests extends UiTestRunner {
         Assert.assertEquals(resetConfirmationMessage, expectedResetConfirmationMessage);
     }
 
-    @Test
+    @Test(priority = 6)
     public final void isLoginIsSuccess() {
         boolean isPlayerPresent = Navigate
                 .navigateToDeezerApp()
@@ -78,7 +78,7 @@ public class LoginTests extends UiTestRunner {
 
     }
 
-    @Test
+    @Test(priority = 5)
     public final void isLoginIsFailed() {
         String expectedMessage = "Your details are incorrect. Please try again.";
 
@@ -89,7 +89,7 @@ public class LoginTests extends UiTestRunner {
                 .getWrongLoginMessage();
 
         SoftAssert softAssertion = new SoftAssert();
-        softAssertion.assertNull(wrongLoginDataMessage);
+        softAssertion.assertNotNull(wrongLoginDataMessage);
         softAssertion.assertEquals(wrongLoginDataMessage, expectedMessage);
         softAssertion.assertAll();
     }

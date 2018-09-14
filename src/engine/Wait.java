@@ -15,7 +15,7 @@ public final class Wait {
 
     public static List<WebElement> getVisibleElements(WebDriver driver, Locatable locatable) {
         try {
-            LoggerUtil.info("Waiting for list of elements" + locatable);
+            LoggerUtil.info("Waiting for list of elements" + locatable.name);
             return new WebDriverWait(driver, TIMEOUT)
                     .until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locatable.getBy()));
 
@@ -28,7 +28,7 @@ public final class Wait {
 
     public static WebElement getVisibleElement(WebDriver driver, Locatable locatable) {
         try {
-            LoggerUtil.info("Waiting for element" + locatable);
+            LoggerUtil.info("Waiting for element" + locatable.name);
             return new WebDriverWait(driver, TIMEOUT)
                     .until(ExpectedConditions.visibilityOfElementLocated(locatable.getBy()));
         } catch (WebDriverException e) {
@@ -39,7 +39,7 @@ public final class Wait {
 
     public static WebElement getClickableElement(WebDriver driver, Locatable locatable){
         try{
-            LoggerUtil.info("Waiting for clickable element" + locatable);
+            LoggerUtil.info("Waiting for clickable element" + locatable.name);
             return new WebDriverWait(driver, TIMEOUT)
                     .until(ExpectedConditions.elementToBeClickable(locatable.getBy()));
         }
@@ -51,24 +51,24 @@ public final class Wait {
 
     public static WebElement waitForOptionalVisibility(WebDriver driver, Locatable locatable){
         try{
-            LoggerUtil.info("Waiting for visibility of " + locatable);
+            LoggerUtil.info("Waiting for visibility of " + locatable.name);
             return new WebDriverWait(driver, TIMEOUT)
                     .until(ExpectedConditions.visibilityOfElementLocated(locatable.getBy()));
         }
         catch (WebDriverException e){
-            LoggerUtil.error("Failed to find visible webElement" + "'" + locatable+ "'" +":"+ e.getMessage());
+            LoggerUtil.error("Failed to find visible webElement" + "'" + locatable.name+ "'" +":"+ e.getMessage());
             throw new WebDriverException();
         }
     }
 
     public static boolean waitForOptionalInvisibility(WebDriver driver, Locatable locatable){
         try{
-            LoggerUtil.info("Waiting fot visibility of" + locatable);
+            LoggerUtil.info("Waiting fot visibility of" + locatable.name);
             return new WebDriverWait(driver, TIMEOUT)
                     .until(ExpectedConditions.invisibilityOfElementLocated(locatable.getBy()));
         }
         catch (WebDriverException e){
-            LoggerUtil.error("Failed to find visible element" + "'"+locatable+"'"+":" + e.getMessage());
+            LoggerUtil.error("Failed to find visible element" + "'"+locatable.name+"'"+":" + e.getMessage());
             throw new WebDriverException();
         }
     }
