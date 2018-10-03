@@ -37,6 +37,7 @@ public class LoginTests extends UiTestRunner {
     public final void isPasswordResetDialogWindowIsPresent() {
         boolean isPasswordResetDialogWindowIsPresent = Navigate
                 .navigateToDeezerApp()
+                .acceptUsageCookies()
                 .navigateToLoginPage()
                 .clickForgetPassword()
                 .isResetContainerIsVisible();
